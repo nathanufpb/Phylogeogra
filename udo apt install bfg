@@ -1,0 +1,321 @@
+[33mcommit ccc83bb0869a0d2568625f80da32f0274f7877c5[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: nathan.paiva <nathan.paiva@academico.ufpb.br>
+Date:   Sun Nov 17 18:48:25 2024 -0300
+
+    Remover arquivos grandes do histórico
+
+Alunos_Share-20241113T160746Z-001.zip
+Leituras-20241111T193736Z-001.zip
+
+[33mcommit a6ded279849114e94c00b28336a7abec01f11314[m
+Author: nathan.paiva <nathan.paiva@academico.ufpb.br>
+Date:   Sun Nov 17 17:29:21 2024 -0300
+
+    Adicionado LFS
+
+.gitattributes
+Alunos_Share-20241113T160746Z-001.zip
+Alunos_Share/Aulas/Aula 1.pdf
+"Alunos_Share/Leituras/2010. Genetica de popula\303\247\303\265es.pdf"
+"Alunos_Share/Leituras/Ballou 2007 Fundamentos de Gen\303\251tica da Conserva\303\247\303\243o.pdf"
+Alunos_Share/Leituras/Carnaval et al. 2009. Stability Predicts Genetic Diversity in the Brazilian AF Hotspot..pdf
+Alunos_Share/Leituras/Carnaval_Bates07.pdf
+"Alunos_Share/Leituras/Coelho 2022 Coalescent simulations indicate that the S\303\243o Francisco River is a biogeographic barrier.pdf"
+Alunos_Share/Leituras/Degnan&Rosenberg_09_GeneTrees_SppTrees.pdf
+Alunos_Share/Leituras/Gehara 2017 Estimating synchronous demographic changes across populations using hABC and its.pdf
+"Alunos_Share/Leituras/Guillory 2024 Geoclimatic drivers of diversification in the largest arid and semi\342\200\220arid environment.pdf"
+Alunos_Share/Leituras/Knowles2009.pdf
+Alunos_Share/Leituras/Kumar & Kumar 2018 A review of phylogeography biotic and abiotic factors.pdf
+"Alunos_Share/Leituras/Oliveira 2015 Speciation with gene \357\254\202ow.pdf"
+"Alunos_Share/Leituras/Turchedo-Zolet Guia Pr\303\241tico Para Filogeografia.pdf"
+Alunos_Share/Leituras/bromham2017 Bayesian molecular dating.pdf
+Alunos_Share/Plano de Ensino_Introducao-Filogeografia.pdf
+Alunos_Share/Pre-Curso.pdf
+"Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/Arv\303\263re de gene/12S_GBlock_out.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/Arv\303\263re de gene/ATPSB_GBlock_out_unphased-K80.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/Arv\303\263re de gene/NKTR_out_unphased.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/Arv\303\263re de gene/R35_out_unphased.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/Arv\303\263re de gene/RP40_out_unphased.fas"
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Align_R35_134samples_original.fas
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Align_R35_166samples_original.fas
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Align_RP40_132samples_original.fas
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Align_RP40_178samples_original.fas
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_132samples/Align_RP40_132samples_original.fas
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_132samples/Align_RP40_132samples_original.fas_freqs
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_132samples/Align_RP40_132samples_original.fas_hbg
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_132samples/Align_RP40_132samples_original.fas_monitor
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_132samples/Align_RP40_132samples_original.fas_pairs
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_132samples/Align_RP40_132samples_original.fas_probs
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_132samples/Align_RP40_132samples_original.fas_recom
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_132samples/PhaseInput.txt
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_132samples/PhaseParam.txt
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_178samples/Align_RP40_178samples_original.fas
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_178samples/Align_RP40_178samples_original.fas_freqs
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_178samples/Align_RP40_178samples_original.fas_hbg
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_178samples/Align_RP40_178samples_original.fas_monitor
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_178samples/Align_RP40_178samples_original.fas_pairs
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_178samples/Align_RP40_178samples_original.fas_probs
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_178samples/Align_RP40_178samples_original.fas_recom
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_178samples/PhaseInput.txt
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/DnaSp_phase/Resultados/DnaSPhase_RP40_178samples/PhaseParam.txt
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/MEGA e Gblocks/Align_12S_137samples_withGap_Muscle.fasta
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/MEGA e Gblocks/GenBank_10samples_12S.fasta
+Alunos_Share/Tutoriais/@Dados/Dia1 e Dia2/MEGA e Gblocks/GenBank_3samples_RP40.fasta
+Alunos_Share/Tutoriais/@Dados/Dia3/Geneland/137samples_12S.txt
+Alunos_Share/Tutoriais/@Dados/Dia3/Geneland/137samples_input.txt
+Alunos_Share/Tutoriais/@Dados/Dia3/Geneland/Geneland_4.0.6.tar.gz
+Alunos_Share/Tutoriais/@Dados/Dia3/Geneland/Geneland_Cnemis.R
+Alunos_Share/Tutoriais/@Dados/Dia3/Geneland/LongLat_137samples.txt
+Alunos_Share/Tutoriais/@Dados/Dia3/Geneland/Resultado/Copy of N_pop.pdf
+Alunos_Share/Tutoriais/@Dados/Dia3/Geneland/Resultado/Copy of Pop1.pdf
+Alunos_Share/Tutoriais/@Dados/Dia3/Geneland/Resultado/Copy of Pop2.pdf
+Alunos_Share/Tutoriais/@Dados/Dia3/Geneland/Scripts/fasta2haplotype_matrix_mitocondrial.py
+Alunos_Share/Tutoriais/@Dados/Dia3/Geneland/Scripts/fasta2haplotype_matrix_nuclear.py
+Alunos_Share/Tutoriais/@Dados/Dia3/Geneland/Tutorial_Geneland.pdf
+"Alunos_Share/Tutoriais/@Dados/Dia3/Isolamento por dist\303\242ncia/Seq_mtDNA.txt"
+"Alunos_Share/Tutoriais/@Dados/Dia3/Isolamento por dist\303\242ncia/coordinates.txt"
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/137samples_GBlock_4genes_structure_input.fas
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/137samples_GBlock_4genes_structure_input.txt
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Pritchard et al. 2009. Tutorial Structure.pdf
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Oliveira et al. 2015/Results.zip
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/.sim
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_10_alpha
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_10_alphahist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_10_lhd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_10_lhdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_10_lnpd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_10_lnpdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_10_recmb
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_10_recmbhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_11_alpha
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_11_alphahist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_11_lhd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_11_lhdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_11_lnpd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_11_lnpdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_11_recmb
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_11_recmbhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_12_alpha
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_12_alphahist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_12_lhd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_12_lhdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_12_lnpd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_12_lnpdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_12_recmb
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_12_recmbhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_1_alpha
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_1_alphahist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_1_lhd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_1_lhdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_1_lnpd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_1_lnpdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_1_recmb
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_1_recmbhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_2_alpha
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_2_alphahist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_2_lhd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_2_lhdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_2_lnpd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_2_lnpdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_2_recmb
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_2_recmbhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_3_alpha
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_3_alphahist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_3_lhd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_3_lhdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_3_lnpd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_3_lnpdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_3_recmb
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_3_recmbhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_4_alpha
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_4_alphahist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_4_lhd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_4_lhdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_4_lnpd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_4_lnpdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_4_recmb
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_4_recmbhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_5_alpha
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_5_alphahist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_5_lhd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_5_lhdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_5_lnpd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_5_lnpdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_5_recmb
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_5_recmbhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_6_alpha
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_6_alphahist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_6_lhd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_6_lhdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_6_lnpd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_6_lnpdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_6_recmb
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_6_recmbhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_7_alpha
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_7_alphahist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_7_lhd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_7_lhdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_7_lnpd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_7_lnpdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_7_recmb
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_7_recmbhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_8_alpha
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_8_alphahist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_8_lhd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_8_lhdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_8_lnpd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_8_lnpdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_8_recmb
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_8_recmbhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_9_alpha
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_9_alphahist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_9_lhd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_9_lhdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_9_lnpd
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_9_lnpdhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_9_recmb
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/PlotData/Linkage_independent_run_9_recmbhist
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results.zip
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results/Linkage_independent_run_10_f
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results/Linkage_independent_run_11_f
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results/Linkage_independent_run_12_f
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results/Linkage_independent_run_1_f
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results/Linkage_independent_run_2_f
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results/Linkage_independent_run_3_f
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results/Linkage_independent_run_4_f
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results/Linkage_independent_run_5_f
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results/Linkage_independent_run_6_f
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results/Linkage_independent_run_7_f
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results/Linkage_independent_run_8_f
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/Results/Linkage_independent_run_9_f
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/extraparams
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Linkage_independent/mainparams
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/Teste 5000.spj
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Resultado/Teste 5000/project_data
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Script/fasta2xmfa.py
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Script/xmfa_input.fas
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/Tutorial xmfa2struct.pdf
+Alunos_Share/Tutoriais/@Dados/Dia3/Structure/xmfa2struct/xmfa2struct.win
+Alunos_Share/Tutoriais/@Dados/Dia4-20241114T131343Z-001.zip
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/ATPSB_Gblock.fas
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Arlequin-WinArl35.zip
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Excoffier & Lischer 2011. Arlequin Tutorial.pdf
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/RP40.fas
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/ATPSB.arp
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/ATPSB.res/ATPSB.htm
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/ATPSB.res/ATPSB.js
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/ATPSB.res/ATPSB_main.htm
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/ATPSB.res/ATPSB_tree.htm
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/ATPSB.res/Arlequin_log.txt
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/ATPSB.res/MissDataPerLocus.txt
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/RP40.arp
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/RP40.res/Arlequin_log.txt
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/RP40.res/MissDataPerLocus.txt
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/RP40.res/RP40.htm
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/RP40.res/RP40.js
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/RP40.res/RP40_main.htm
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/RP40.res/RP40_main.txt
+Alunos_Share/Tutoriais/@Dados/Dia4/Arlequin_AMOVA/Resultados/Oliveira et al. 2015/RP40.res/RP40_tree.htm
+"Alunos_Share/Tutoriais/@Dados/Dia4/BEAST_Estimativa da taxa de substituic\314\247a\314\203o-20241114T174818Z-001.zip"
+"Alunos_Share/Tutoriais/@Dados/Dia4/BEAST_Estimativa da taxa de substitui\303\247\303\243o/62sequences.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia4/BEAST_Estimativa da taxa de substitui\303\247\303\243o/Resultados/Oliveira et al. 2015/100Final_62sequences.log.txt"
+"Alunos_Share/Tutoriais/@Dados/Dia4/BEAST_Estimativa da taxa de substitui\303\247\303\243o/Resultados/Oliveira et al. 2015/100Final_62sequences.trees.txt"
+"Alunos_Share/Tutoriais/@Dados/Dia4/BEAST_Estimativa da taxa de substitui\303\247\303\243o/Resultados/Oliveira et al. 2015/Tree_100Final_62sequences"
+"Alunos_Share/Tutoriais/@Dados/Dia4/BEAST_Estimativa da taxa de substitui\303\247\303\243o/Resultados/Teste/62sequences.trees"
+"Alunos_Share/Tutoriais/@Dados/Dia4/BEAST_Estimativa da taxa de substitui\303\247\303\243o/Resultados/Teste/B2_62sequences.log"
+"Alunos_Share/Tutoriais/@Dados/Dia4/BEAST_Estimativa da taxa de substitui\303\247\303\243o/Resultados/Teste/B2_62sequences.xml"
+"Alunos_Share/Tutoriais/@Dados/Dia4/BEAST_Estimativa da taxa de substitui\303\247\303\243o/Resultados/Teste/B2_62sequences.xml.state"
+"Alunos_Share/Tutoriais/@Dados/Dia4/BEAST_Estimativa da taxa de substitui\303\247\303\243o/Teiidae_12s.xml"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Delimita\303\247\303\243o_SingleLocus/12S_Gblock.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Delimita\303\247\303\243o_SingleLocus/Beast_arvore_12S"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Delimita\303\247\303\243o_SingleLocus/IQTree_arvore12S_out.fas.treefile"
+"Alunos_Share/Tutoriais/@Dados/Dia4/DnaSP_estimativas gen\303\251ticas/.DS_Store"
+"Alunos_Share/Tutoriais/@Dados/Dia4/DnaSP_estimativas gen\303\251ticas/DnaSP Tutorial.pdf"
+"Alunos_Share/Tutoriais/@Dados/Dia4/DnaSP_estimativas gen\303\251ticas/Pop_NE/12S_caatinga.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia4/DnaSP_estimativas gen\303\251ticas/Pop_NE/ATPSB_caatinga.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia4/DnaSP_estimativas gen\303\251ticas/Pop_NE/NKTR_caatinga.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia4/DnaSP_estimativas gen\303\251ticas/Pop_NE/R35_caatinga.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia4/DnaSP_estimativas gen\303\251ticas/Pop_NE/RP40_caatinga.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia4/DnaSP_estimativas gen\303\251ticas/Pop_SW/12S_SW.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia4/DnaSP_estimativas gen\303\251ticas/Pop_SW/ATPSB_SW.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia4/DnaSP_estimativas gen\303\251ticas/Pop_SW/NKTR_SW.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia4/DnaSP_estimativas gen\303\251ticas/Pop_SW/R35_SW.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia4/DnaSP_estimativas gen\303\251ticas/Pop_SW/RP40_SW.fas"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/12S_Gblock-ingroup.phy"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/12S_Hap_traits .txt"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/ATPSB_Gblock_phased.phy"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/ATPSB_Hap_traits.txt"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/NKTR_Hap_traits.txt"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/NKTR_phased.phy"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7.zip"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/QtCLucene4.dll"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/QtCore4.dll"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/QtDeclarative4.dll"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/QtGui4.dll"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/QtHelp4.dll"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/QtNetwork4.dll"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/QtScript4.dll"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/QtSql4.dll"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/QtSvg4.dll"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/QtWebKit4.dll"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/QtXml4.dll"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/QtXmlPatterns4.dll"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/assistant.exe"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/LICENSE.txt"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/audio/KDE-Sys-App-Positive.ogg"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/audio/KDE-Sys-List-End.ogg"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/airport.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/annotation.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/bookmark.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/border_1.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/border_2.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_1_orange.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_1_red.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_1_white.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_1_yellow.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_2_orange.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_2_red.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_2_white.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_2_yellow.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_3_orange.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_3_red.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_3_white.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_3_yellow.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_4_orange.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_4_red.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_4_white.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/city_4_yellow.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/coordinate.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/crater.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/cursor_bc.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/cursor_bl.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/cursor_br.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/cursor_cl.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/cursor_cr.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/cursor_tc.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/cursor_tl.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/cursor_tr.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/default_location.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/earth_apollo.jpg"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/flag.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/folder.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/highway_footway.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/highway_motorway.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/highway_path.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/highway_primary.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/highway_secondary.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/highway_tertiary.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/highway_track.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/highway_trunk.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/highway_unclassified.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/lake.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/manned_landing.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/mountain_1.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/nation.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/observatory.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/ocean.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/osm.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/other.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/poi/accommodation_camping.p.16.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/poi/accommodation_hostel.p.16.png"
+"Alunos_Share/Tutoriais/@Dados/Dia4/Hapl\303\263tipos/popart-1.7/data/bitmaps/poi/accommo
