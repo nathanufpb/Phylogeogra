@@ -1,0 +1,572 @@
+*************************************************************
+****                                                     ****
+****            Output from PHASE v2.1.1                 ****
+****  Code by M Stephens, with contributions from N Li   ****
+****                                                     ****
+*************************************************************
+
+BEGIN COMMAND_LINE 
+phase -MR0 -d1 C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\EU025551_EU025679_sequences\DnaSPhase\PhaseInput.txt C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\EU025551_EU025679_sequences\DnaSPhase\c-myc_Proceratophrys_boiei_aligned.fas 100 1 100 
+END COMMAND_LINE 
+
+BEGIN OUTFILE_LIST
+C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\EU025551_EU025679_sequences\DnaSPhase\c-myc_Proceratophrys_boiei_aligned.fas_freqs : haplotype frequency estimates
+C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\EU025551_EU025679_sequences\DnaSPhase\c-myc_Proceratophrys_boiei_aligned.fas_pairs : most likely haplotype pairs for each individual
+C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\EU025551_EU025679_sequences\DnaSPhase\c-myc_Proceratophrys_boiei_aligned.fas_recom : estimates of recombination parameters
+C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\EU025551_EU025679_sequences\DnaSPhase\c-myc_Proceratophrys_boiei_aligned.fas_monitor : file for monitoring convergence
+END OUTFILE_LIST
+
+BEGIN INPUT_SUMMARY
+Number of Individuals: 55
+Number of Loci: 75
+Positions of loci: 55 57 66 80 85 96 101 112 115 116 117 128 152 154 155 170 219 236 331 341 342 343 344 345 346 347 348 349 369 399 413 414 484 524 549 556 557 558 559 560 561 562 563 564 565 566 567 588 598 605 614 617 629 636 637 638 639 640 644 678 693 694 695 701 702 703 704 708 710 716 728 737 766 810 833 
+END INPUT_SUMMARY
+
+List of haplotypes found in best reconstruction, with counts.
+(See file C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\EU025551_EU025679_sequences\DnaSPhase\c-myc_Proceratophrys_boiei_aligned.fas_freqs for haplotype population frequency estimates)
+
+BEGIN LIST_SUMMARY
+         1 ATT 1 GT 3 GC 0 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCTTCCACC5 3 TTTGGACGGAAGATTGAGC    2.000000
+         2 ATT 1 GT 3 GC 0 GCAAGGGAAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCAC55 5 55TGGACGGAAGATTGAGC    1.000000
+         3 ATT 1 GT 3 GC 0 GCAAGGGAAT 2 GGGGT55AGCGGA 1 ATGACTTATCTCTTCCGCC5 1 TTTGGACGGAAGATTGAGC    2.000000
+         4 ATT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    6.000000
+         5 ATT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTAAGC    1.000000
+         6 ATT 1 GT 3 GC 1 GCAAGGGGAC 5 5555555AGCGGA 1 ATGACTTATCTCAGCCACC5 1 TTTGGACGGAAGATTGAGC    1.000000
+         7 ATT 1 GT 3 GC 1 GCAAGGGGAC 5 5555555AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+         8 ATT 1 TT 3 GC 1 GCAAGGGGAC 2 GGGGT5GCGCGGA 1 ATGACTTATCTCAGCCACC5 5 55TGGACGGAAGATTGAGC    1.000000
+         9 ATT 1 TT 3 GC 1 GCAAGGGGAC 2 GGGGT5GAGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        10 ATT 1 TT 3 GC 1 GCAAGGGGAC 2 GGGGT55CGCGGA 1 ATGACTTATCTCAGCCACC5 5 55TGGACGGAAGATTGAGC    2.000000
+        11 ATT 1 TT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    2.000000
+        12 ATT 2 GC 0 GA 1 ATAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCTGCCACC5 1 TTTGGACGGAAGATTGAGC    4.000000
+        13 ATT 2 GC 0 GA 1 ATAAGGGGAC 2 GGGGTGGAGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        14 ATT 2 GT 1 GC 3 GCAAGGGGAT 2 GGGGT55AGCGGA 1 ATGACTTATCTCTTCCGCC5 1 TTTGGACGGAAGATTGAGC    1.000000
+        15 ATT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 1 TTTGGACGGAAGATCGAGC    4.000000
+        16 ATT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 1 TTTGGACGGAAGATCGAAC    2.000000
+        17 ATT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 1 TTTGGACG555GATTGAGC    1.000000
+        18 ATT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 1 TTTGGACA555GATCGAGC   10.000000
+        19 ATT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATCGAGC    1.000000
+        20 ATT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACCC 3 TTTG555GGAAGATCGAGC    1.000000
+        21 ATT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCGCC5 3 TTTGGACGGAAGATTGTGC    1.000000
+        22 ATT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGG 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATCGAGC    1.000000
+        23 ATT 2 GT 3 GC 1 GCAAGGGGAT 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 1 TTTGGACG555GATTGAGC    1.000000
+        24 ATT 2 GT 3 GC 1 GCAAGGGGAT 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        25 ATT 2 GT 3 AC 1 GTAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATCGAGC    1.000000
+        26 ATT 2 GT 3 AC 1 GTAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCGCC5 5 55CGGACGGAAGGCCGAGC    1.000000
+        27 ATG 1 GT 3 GC 0 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCTTCCACC5 1 TTTGGACGGAAGATTGAGC    1.000000
+        28 GTT 1 GC 0 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCTGCCACC5 1 TTTGGACGGAAGATTGAGC    1.000000
+        29 GTT 1 GC 0 GC 1 GCAAGGGGAC 2 GGGGTGGAGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        30 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT5GAGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        31 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 0 ATGACTTATCTCAGTCACC5 1 TTTGGACGGAAGATCGAGC    1.000000
+        32 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 1 TTTGGACG555GATTGAGC    1.000000
+        33 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    2.000000
+        34 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATCGAGC    6.000000
+        35 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGACCGAGC    1.000000
+        36 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGGCCGAGC    2.000000
+        37 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCAC55 5 55TGGACGGAAGATTGAGC    1.000000
+        38 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCGCC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        39 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCGCC5 5 55CGGACGGAAGGCCGAGC    1.000000
+        40 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCTTCCACC5 1 TTTGGACGGAAGATTGAGC    1.000000
+        41 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCTTCCACC5 1 TTTGGACGGAAGATTAAGC    1.000000
+        42 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCTTCCACC5 1 TTTAGACGGAAGATTAAGC    1.000000
+        43 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCTTCCACC5 3 TTTGGACGGAAGATTAAGC    1.000000
+        44 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 2 555555555555AGCCACC5 3 TTTGGACGGAAGATCGAGC    1.000000
+        45 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCAGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACG555GATTGAGC    1.000000
+        46 GTT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGTGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATCGAGT    1.000000
+        47 GTT 1 GT 3 GC 1 GCAAGGGGAT 2 GGGGT55AGCGGA 1 ATGACTTATCTCTTCCGCC5 1 TTTGGACGGAAGATTGAGC    1.000000
+        48 GTT 1 GT 3 GC 1 GCAAGAGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACCC 3 TTTG555GGAAGATCGAGC    1.000000
+        49 GTT 1 GT 3 GC 1 GCAAGAGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCGCC5 3 TTTGGACGGAAGATTGTGC    3.000000
+        50 GTT 1 GT 3 GC 1 GCAAGAGGAC 2 GGGGT55AGCGAA 2 ATGACTTATCTCAGCCACC5 1 TTTGGACGGAAGATTGAGC    2.000000
+        51 GTT 2 GC 3 GC 1 GCAAGGGGAC 2 GGGGT5GCGCGGA 1 ATGACTTATCTCAGCCACC5 5 55TGGACGGAAGATTGAGC    1.000000
+        52 GTT 2 GC 3 GC 1 GCAAGGGGAC 2 GGGGT5GAGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        53 GTT 2 GC 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCAGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACG555GATTGAGC    1.000000
+        54 GTT 2 GC 3 GC 1 GCAAGGGGAC 2 GGGGT55AGTGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATCGAGT    1.000000
+        55 GTT 2 GC 3 GC 1 GCTCAGGGAC 2 GGGGT5GAGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        56 GTT 2 GC 3 GC 1 GCTCAGGGAC 2 GGGGT55AGCGGA 2 555555555555AGCCACC5 3 TTTGGACGGAAGATCGAGC    1.000000
+        57 GTT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT5GAGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        58 GTT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 0 ATGACTTATCTCAGTCACC5 1 TTTGGACGGAAGATCGAGC    1.000000
+        59 GTT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    3.000000
+        60 GTT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATCGAGC    1.000000
+        61 GTT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCTACC5 5 55TGGACGGAAGATTGAGC    1.000000
+        62 GTT 2 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGAA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        63 GTT 2 GT 3 GC 1 GCAAGGGGAT 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGACCGAGC    1.000000
+        64 GTT 2 GT 3 GC 1 GCAAGGAGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 1 TTTGGACGGAAAATTGAGC    1.000000
+        65 GTT 2 GT 3 GC 1 GCAAGGAGAC 2 GGGGT55AACGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        66 GAT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        67 GAT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCAAC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        68 GAT 1 GT 3 GC 1 GCAAGGGGAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCTACC5 5 55TGGACGGAAGATTGAGC    1.000000
+        69 GAT 1 GT 3 GC 1 GCAAGGGGAT 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 1 TTTGGACG555GATTGAGC    1.000000
+        70 GAT 1 GT 3 GC 1 GCAAGGGGAT 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        71 GAT 2 GT 3 GC 1 GCAAGGGGGC 0 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 1 TTTGGACGGAAGATTGAGC    1.000000
+        72 GAT 3 GC 3 GC 1 GCAAGGGAAC 2 GGGGT5GAGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATTGAGC    1.000000
+        73 GAT 3 GC 3 GC 1 GCAAGGGAAC 2 GGGGT55AGCGGA 1 ATGACTTATCTCAGCCACC5 3 TTTGGACGGAAGATCGAGC    1.000000
+END LIST_SUMMARY
+
+
+Summary of best reconstruction
+(numbers refer to the list of haplotypes given above)
+
+BEGIN BESTPAIRS_SUMMARY
+#FC1015_2: (8,51)
+#BC726: (36,41)
+#SM1577: (15,15)
+#SM1580: (18,18)
+#AA925_2: (23,69)
+#SM1587: (15,15)
+#TAP1474_1: (61,68)
+#TAP1476: (4,49)
+#FC1038: (33,50)
+#AA936_1: (26,39)
+#AA936_2: (25,34)
+#SM1578: (18,18)
+#AA947_2: (22,34)
+#AA947_1: (17,32)
+#BC728: (5,43)
+#BC766: (4,4)
+#AA948: (19,34)
+#TAP1477_1: (21,49)
+#FC1037_1: (44,56)
+#FC481_1: (45,53)
+#FC1037_2: (30,55)
+#FC1065_2: (10,10)
+#FC1059: (50,64)
+#SM1553: (18,18)
+#BMD377: (4,14)
+#AA946: (31,58)
+#FC1020: (34,62)
+#BC770: (1,71)
+#BC729_1: (3,47)
+#BC730: (27,63)
+#BC765: (1,3)
+#FC1065_1: (11,11)
+#BC727: (40,42)
+#FC1058_1: (60,73)
+#FC481_2: (46,54)
+#TAP1475: (34,38)
+#BC763: (4,35)
+#FC1058_2: (57,72)
+#TAP1477_2: (20,48)
+#BMD840_1: (12,28)
+#BMD840_2: (13,29)
+#AA949: (34,67)
+#BC729_2: (2,37)
+#FC1015_1: (9,52)
+#SM1581_1: (18,18)
+#TAP1479: (33,65)
+#AA925_1: (24,70)
+#BMD830: (12,36)
+#SM1582: (18,18)
+#TAP1480: (4,49)
+#BMD376: (12,12)
+#SM1581_2: (16,16)
+#TAP1483: (59,59)
+#BMD826: (6,7)
+#TAP1474_2: (59,66)
+END BESTPAIRS_SUMMARY
+
+
+Haplotype estimates for each individual, with uncertain phases enclosed in ()
+and uncertain genotypes enclosed in []:
+
+BEGIN BESTPAIRS1
+0 #FC1015_2
+(A) T T 1 (T) T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 G C G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 5 5 5 T G G A C G G A A G A T T G A G C 
+(G) T T 2 (G) C 3 G C 1 G C A A G G G G A C 2 G G G G T 5 G C G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 5 5 5 T G G A C G G A A G A T T G A G C 
+0 #BC726
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 (3) T T T G G A C G G A A G G C C G A G C 
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T T C C A C C 5 (1) T T T G G A C G G A A G A T T A A G C 
+0 #SM1577
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G G A A G A T C G A G C 
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G G A A G A T C G A G C 
+0 #SM1580
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C A 5 5 5 G A T C G A G C 
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C A 5 5 5 G A T C G A G C 
+0 #AA925_2
+A T T (2) G T 3 G C 1 G C A A G G G G A T 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G 5 5 5 G A T T G A G C 
+G A T (1) G T 3 G C 1 G C A A G G G G A T 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G 5 5 5 G A T T G A G C 
+0 #SM1587
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G G A A G A T C G A G C 
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G G A A G A T C G A G C 
+0 #TAP1474_1
+G (T) T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C T A C C 5 5 5 5 T G G A C G G A A G A T T G A G C 
+G (A) T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C T A C C 5 5 5 5 T G G A C G G A A G A T T G A G C 
+0 #TAP1476
+(A) T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+(G) T T 1 G T 3 G C 1 G C A A G A G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C G C C 5 3 T T T G G A C G G A A G A T T G T G C 
+0 #FC1038
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+G T T 1 G T 3 G C 1 G C A A G A G G A C 2 G G G G T 5 5 A G C G A A 2 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G G A A G A T T G A G C 
+0 #AA936_1
+(A) T T (2) G T 3 A C 1 G T A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C G C C 5 5 5 5 C G G A C G G A A G G C C G A G C 
+(G) T T (1) G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C G C C 5 5 5 5 C G G A C G G A A G G C C G A G C 
+0 #AA936_2
+A T T (2) G T 3 A C 1 G T A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T C G A G C 
+G T T (1) G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T C G A G C 
+0 #SM1578
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C A 5 5 5 G A T C G A G C 
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C A 5 5 5 G A T C G A G C 
+0 #AA947_2
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G (G) 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T C G A G C 
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G (A) 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T C G A G C 
+0 #AA947_1
+(A) T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G 5 5 5 G A T T G A G C 
+(G) T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G 5 5 5 G A T T G A G C 
+0 #BC728
+(A) T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T A A G C 
+(G) T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T T C C A C C 5 3 T T T G G A C G G A A G A T T A A G C 
+0 #BC766
+A T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+A T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+0 #AA948
+(A) T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T C G A G C 
+(G) T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T C G A G C 
+0 #TAP1477_1
+(A) T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C G C C 5 3 T T T G G A C G G A A G A T T G T G C 
+(G) T T 1 G T 3 G C 1 G C A A G A G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C G C C 5 3 T T T G G A C G G A A G A T T G T G C 
+0 #FC1037_1
+G T T (1) G (T) 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 2 5 5 5 5 5 5 5 5 5 5 5 5 A G C C A C C 5 3 T T T G G A C G G A A G A T C G A G C 
+G T T (2) G (C) 3 G C 1 G C T C A G G G A C 2 G G G G T 5 5 A G C G G A 2 5 5 5 5 5 5 5 5 5 5 5 5 A G C C A C C 5 3 T T T G G A C G G A A G A T C G A G C 
+0 #FC481_1
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C A G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G 5 5 5 G A T T G A G C 
+G T T 2 G C 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C A G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G 5 5 5 G A T T G A G C 
+0 #FC1037_2
+G T T (1) G (T) 3 G C 1 G C A A G G G G A C 2 G G G G T 5 G A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+G T T (2) G (C) 3 G C 1 G C T C A G G G A C 2 G G G G T 5 G A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+0 #FC1065_2
+A T T 1 T T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 C G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 5 5 5 T G G A C G G A A G A T T G A G C 
+A T T 1 T T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 C G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 5 5 5 T G G A C G G A A G A T T G A G C 
+0 #FC1059
+G T T 1 G T 3 G C 1 G C A A G A G G A C 2 G G G G T 5 5 A G C G A A 2 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G G A A (G) A T T G A G C 
+G T T 2 G T 3 G C 1 G C A A G G A G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G G A A (A) A T T G A G C 
+0 #SM1553
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C A 5 5 5 G A T C G A G C 
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C A 5 5 5 G A T C G A G C 
+0 #BMD377
+A T T (1) G T (3) G C (1) G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+A T T (2) G T (1) G C (3) G C A A G G G G A T 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T T C C G C C 5 1 T T T G G A C G G A A G A T T G A G C 
+0 #AA946
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 0 A T G A C T T A T C T C A G T C A C C 5 1 T T T G G A C G G A A G A T C G A G C 
+G T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 0 A T G A C T T A T C T C A G T C A C C 5 1 T T T G G A C G G A A G A T C G A G C 
+0 #FC1020
+G T T (1) G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G (G) A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T (C) G A G C 
+G T T (2) G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G (A) A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T (T) G A G C 
+0 #BC770
+(A) (T) T (1) G T 3 G C 0 G C A A G G G G (A) C (2) G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T T C C A C C 5 (3) T T T G G A C G G A A G A T T G A G C 
+(G) (A) T (2) G T 3 G C 1 G C A A G G G G (G) C (0) G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 (1) T T T G G A C G G A A G A T T G A G C 
+0 #BC729_1
+A T T 1 G T 3 G C 0 G C A A G G G A A T 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T T C C G C C 5 1 T T T G G A C G G A A G A T T G A G C 
+G T T 1 G T 3 G C 1 G C A A G G G G A T 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T T C C G C C 5 1 T T T G G A C G G A A G A T T G A G C 
+0 #BC730
+(A) T (G) (1) G T 3 G C 0 G C A A G G G G A (C) 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C (T) (T) C C A C C 5 (1) T T T G G A C G G A A G A (T) (T) G A G C 
+(G) T (T) (2) G T 3 G C 1 G C A A G G G G A (T) 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C (A) (G) C C A C C 5 (3) T T T G G A C G G A A G A (C) (C) G A G C 
+0 #BC765
+A T T 1 G T 3 G C 0 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T T C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+A T T 1 G T 3 G C 0 G C A A G G G A A T 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T T C C G C C 5 1 T T T G G A C G G A A G A T T G A G C 
+0 #FC1065_1
+A T T 1 T T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+A T T 1 T T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+0 #BC727
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T T C C A C C 5 1 T T T (G) G A C G G A A G A T T G A G C 
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T T C C A C C 5 1 T T T (A) G A C G G A A G A T T A A G C 
+0 #FC1058_1
+G T T 2 G (T) 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T C G A G C 
+G A T 3 G (C) 3 G C 1 G C A A G G G A A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T C G A G C 
+0 #FC481_2
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G T G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T C G A G T 
+G T T 2 G C 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G T G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T C G A G T 
+0 #TAP1475
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C (A) C C 5 3 T T T G G A C G G A A G A T C G A G C 
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C (G) C C 5 3 T T T G G A C G G A A G A T T G A G C 
+0 #BC763
+(A) T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A (T) T G A G C 
+(G) T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A (C) C G A G C 
+0 #FC1058_2
+G T T 2 G (T) 3 G C 1 G C A A G G G G A C 2 G G G G T 5 G A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+G A T 3 G (C) 3 G C 1 G C A A G G G A A C 2 G G G G T 5 G A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+0 #TAP1477_2
+(A) T T 2 G T 3 G C 1 G C A A G (G) G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C C 3 T T T G 5 5 5 G G A A G A T C G A G C 
+(G) T T 1 G T 3 G C 1 G C A A G (A) G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C C 3 T T T G 5 5 5 G G A A G A T C G A G C 
+0 #BMD840_1
+A T T 2 G C 0 G A 1 A T A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T G C C A C C 5 1 T T T G G A C G G A A G A T T G A G C 
+G T T 1 G C 0 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T G C C A C C 5 1 T T T G G A C G G A A G A T T G A G C 
+0 #BMD840_2
+A T T 2 G C 0 G A 1 A T A A G G G G A C 2 G G G G T G G A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+G T T 1 G C 0 G C 1 G C A A G G G G A C 2 G G G G T G G A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+0 #AA949
+G (T) T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A (C) C 5 3 T T T G G A C G G A A G A T (C) G A G C 
+G (A) T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A (A) C 5 3 T T T G G A C G G A A G A T (T) G A G C 
+0 #BC729_2
+A T T 1 G T 3 G C 0 G C A A G G G A A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C 5 5 5 5 5 T G G A C G G A A G A T T G A G C 
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C 5 5 5 5 5 T G G A C G G A A G A T T G A G C 
+0 #FC1015_1
+(A) T T 1 (T) T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 G A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+(G) T T 2 (G) C 3 G C 1 G C A A G G G G A C 2 G G G G T 5 G A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+0 #SM1581_1
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C A 5 5 5 G A T C G A G C 
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C A 5 5 5 G A T C G A G C 
+0 #TAP1479
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A (G) C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+G T T 2 G T 3 G C 1 G C A A G G A G A C 2 G G G G T 5 5 A (A) C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+0 #AA925_1
+A T T (2) G T 3 G C 1 G C A A G G G G A T 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+G A T (1) G T 3 G C 1 G C A A G G G G A T 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+0 #BMD830
+A T T 2 G C 0 G A 1 A T A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T G C C A C C 5 (1) T T T G G A C G G A A G (A) (T) (T) G A G C 
+G T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 (3) T T T G G A C G G A A G (G) (C) (C) G A G C 
+0 #SM1582
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C A 5 5 5 G A T C G A G C 
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C A 5 5 5 G A T C G A G C 
+0 #TAP1480
+(A) T T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+(G) T T 1 G T 3 G C 1 G C A A G A G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C G C C 5 3 T T T G G A C G G A A G A T T G T G C 
+0 #BMD376
+A T T 2 G C 0 G A 1 A T A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T G C C A C C 5 1 T T T G G A C G G A A G A T T G A G C 
+A T T 2 G C 0 G A 1 A T A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C T G C C A C C 5 1 T T T G G A C G G A A G A T T G A G C 
+0 #SM1581_2
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G G A A G A T C G A A C 
+A T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G G A A G A T C G A A C 
+0 #TAP1483
+G T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+G T T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+0 #BMD826
+A T T 1 G T 3 G C 1 G C A A G G G G A C 5 5 5 5 5 5 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 1 T T T G G A C G G A A G A T T G A G C 
+A T T 1 G T 3 G C 1 G C A A G G G G A C 5 5 5 5 5 5 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+0 #TAP1474_2
+G (T) T 2 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+G (A) T 1 G T 3 G C 1 G C A A G G G G A C 2 G G G G T 5 5 A G C G G A 1 A T G A C T T A T C T C A G C C A C C 5 3 T T T G G A C G G A A G A T T G A G C 
+END BESTPAIRS1
+
+
+Haplotype estimates for each individual, with uncertain phases enclosed in ()
+and uncertain genotypes enclosed in []
+with phase known positions indicated by =
+
+BEGIN BESTPAIRS2
+0 #FC1015_2
+(A) = = 1 (T) T = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+(G) = = 2 (G) C = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #BC726
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = A G = = = = = = (3) = = = = = = = = = = = = G C C G = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = T T = = = = = = (1) = = = = = = = = = = = = A T T A = = = 
+0 #SM1577
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #SM1580
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #AA925_2
+A T = (2) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+G A = (1) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #SM1587
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #TAP1474_1
+= (T) = 2 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= (A) = 1 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #TAP1476
+(A) = = = = = = = = = = = = = = G = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = A = = = = = = = = = = = = = = = = = = = = A = = 
+(G) = = = = = = = = = = = = = = A = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = G = = = = = = = = = = = = = = = = = = = = T = = 
+0 #FC1038
+= = = = = = = = = = = = = = = G = = = = = = = = = = = = = = = = G = 1 = = = = = = = = = = = = = = = = = = = = 3 = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = A = = = = = = = = = = = = = = = = A = 2 = = = = = = = = = = = = = = = = = = = = 1 = = = = = = = = = = = = = = = = = = = 
+0 #AA936_1
+(A) = = (2) = = = A = = = T = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+(G) = = (1) = = = G = = = C = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #AA936_2
+A = = (2) = = = A = = = T = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+G = = (1) = = = G = = = C = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #SM1578
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #AA947_2
+A = = 2 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (G) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+G = = 1 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (A) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #AA947_1
+(A) = = 2 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+(G) = = 1 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #BC728
+(A) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = A G = = = = = = = = = = = = = = = = = = = = = = = = = = 
+(G) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = T T = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #BC766
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #AA948
+(A) = = 2 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+(G) = = 1 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #TAP1477_1
+(A) = = 2 = = = = = = = = = = = G = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+(G) = = 1 = = = = = = = = = = = A = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #FC1037_1
+= = = (1) = (T) = = = = = = A A G = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = (2) = (C) = = = = = = T C A = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #FC481_1
+= = = 1 = T = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = 2 = C = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #FC1037_2
+= = = (1) = (T) = = = = = = A A G = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = (2) = (C) = = = = = = T C A = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #FC1065_2
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #FC1059
+= = = 1 = = = = = = = = = = = A G = = = = = = = = = = = = = = = A = 2 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (G) = = = = = = = 
+= = = 2 = = = = = = = = = = = G A = = = = = = = = = = = = = = = G = 1 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (A) = = = = = = = 
+0 #SM1553
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #BMD377
+= = = (1) = = (3) = = (1) = = = = = = = = = C = = = = = = = = = = = = = = = = = = = = = = = = = = = A G = = A = = = 3 = = = = = = = = = = = = = = = = = = = 
+= = = (2) = = (1) = = (3) = = = = = = = = = T = = = = = = = = = = = = = = = = = = = = = = = = = = = T T = = G = = = 1 = = = = = = = = = = = = = = = = = = = 
+0 #AA946
+= = = 1 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = 2 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #FC1020
+= = = (1) = = = = = = = = = = = = = = = = = = = = = = = = = = = = (G) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (C) = = = = 
+= = = (2) = = = = = = = = = = = = = = = = = = = = = = = = = = = = (A) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (T) = = = = 
+0 #BC770
+(A) (T) = (1) = = = = = 0 = = = = = = = = (A) = (2) = = = = = = = = = = = = = = = = = = = = = = = = = = T T = = = = = = (3) = = = = = = = = = = = = = = = = = = = 
+(G) (A) = (2) = = = = = 1 = = = = = = = = (G) = (0) = = = = = = = = = = = = = = = = = = = = = = = = = = A G = = = = = = (1) = = = = = = = = = = = = = = = = = = = 
+0 #BC729_1
+A = = = = = = = = 0 = = = = = = = A = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+G = = = = = = = = 1 = = = = = = = G = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #BC730
+(A) = (G) (1) = = = = = 0 = = = = = = = = = (C) = = = = = = = = = = = = = = = = = = = = = = = = = = = (T) (T) = = = = = = (1) = = = = = = = = = = = = = (T) (T) = = = = 
+(G) = (T) (2) = = = = = 1 = = = = = = = = = (T) = = = = = = = = = = = = = = = = = = = = = = = = = = = (A) (G) = = = = = = (3) = = = = = = = = = = = = = (C) (C) = = = = 
+0 #BC765
+= = = = = = = = = = = = = = = = = G = C = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = A = = = 3 = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = A = T = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = G = = = 1 = = = = = = = = = = = = = = = = = = = 
+0 #FC1065_1
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #BC727
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (G) = = = = = = = = = = = G = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (A) = = = = = = = = = = = A = = = 
+0 #FC1058_1
+= T = 2 = (T) = = = = = = = = = = = G = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= A = 3 = (C) = = = = = = = = = = = A = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #FC481_2
+= = = 1 = T = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = 2 = C = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #TAP1475
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (A) = = = = = = = = = = = = = = = = = = C = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (G) = = = = = = = = = = = = = = = = = = T = = = = 
+0 #BC763
+(A) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (T) T = = = = 
+(G) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (C) C = = = = 
+0 #FC1058_2
+= T = 2 = (T) = = = = = = = = = = = G = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= A = 3 = (C) = = = = = = = = = = = A = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #TAP1477_2
+(A) = = 2 = = = = = = = = = = = (G) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+(G) = = 1 = = = = = = = = = = = (A) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #BMD840_1
+A = = 2 = = = = A = A T = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+G = = 1 = = = = C = G C = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #BMD840_2
+A = = 2 = = = = A = A T = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+G = = 1 = = = = C = G C = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #AA949
+= (T) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (C) = = = = = = = = = = = = = = = = = (C) = = = = 
+= (A) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = (A) = = = = = = = = = = = = = = = = = (T) = = = = 
+0 #BC729_2
+A = = = = = = = = 0 = = = = = = = A = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+G = = = = = = = = 1 = = = = = = = G = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #FC1015_1
+(A) = = 1 (T) T = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+(G) = = 2 (G) C = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #SM1581_1
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #TAP1479
+= = = 1 = = = = = = = = = = = = G = = = = = = = = = = = = (G) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = 2 = = = = = = = = = = = = A = = = = = = = = = = = = (A) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #AA925_1
+A T = (2) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+G A = (1) = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #BMD830
+A = = 2 = C 0 = A = A T = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = T = = = = = = = (1) = = = = = = = = = = = = (A) (T) (T) = = = = 
+G = = 1 = T 3 = C = G C = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = A = = = = = = = (3) = = = = = = = = = = = = (G) (C) (C) = = = = 
+0 #SM1582
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #TAP1480
+(A) = = = = = = = = = = = = = = G = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = A = = = = = = = = = = = = = = = = = = = = A = = 
+(G) = = = = = = = = = = = = = = A = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = G = = = = = = = = = = = = = = = = = = = = T = = 
+0 #BMD376
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #SM1581_2
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #TAP1483
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0 #BMD826
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 1 = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 3 = = = = = = = = = = = = = = = = = = = 
+0 #TAP1474_2
+= (T) = 2 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= (A) = 1 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+END BESTPAIRS2
+
+
+Phase probabilities at each site
+with phase known positions indicated by =
+and missing data positions indicated by ?
+
+BEGIN PHASEPROBS
+0.89 = = 1.00 0.87 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 0.95 0.95 = = = = = = 0.55 = = = = = = = = = = = = 1.00 1.00 1.00 1.00 = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+1.00 0.93 = 0.79 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= 0.59 = 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.67 = = = = = = = = = = = = = = 0.94 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 1.00 = = = = = = = = = = = = = = = = = = = = 1.00 = = 
+= = = = = = = = = = = = = = = 0.94 = = = = = = = = = = = = = = = = 1.00 = 1.00 = = = = = = = = = = = = = = = = = = = = 0.96 = = = = = = = = = = = = = = = = = = = 
+0.89 = = 0.87 = = = 1.00 = = = 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.91 = = 0.87 = = = 1.00 = = = 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.92 = = 0.91 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 0.59 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.89 = = 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.75 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 1.00 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.83 = = 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.75 = = 0.99 = = = = = = = = = = = 0.95 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = 0.58 = 0.69 = = = = = = 1.00 1.00 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = 0.94 = 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = 0.57 = 0.67 = = = = = = 1.00 1.00 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = 0.96 = = = = = = = = = = = 0.97 0.91 = = = = = = = = = = = = = = = 0.98 = 0.98 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 0.54 = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = 0.65 = = 0.52 = = 0.53 = = = = = = = = = 0.96 = = = = = = = = = = = = = = = = = = = = = = = = = = = 1.00 1.00 = = 1.00 = = = 1.00 = = = = = = = = = = = = = = = = = = = 
+= = = 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = 0.81 = = = = = = = = = = = = = = = = = = = = = = = = = = = = 0.69 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 0.82 = = = = 
+0.80 0.77 = 0.86 = = = = = 0.97 = = = = = = = = 0.53 = 0.53 = = = = = = = = = = = = = = = = = = = = = = = = = = 0.94 0.94 = = = = = = 0.62 = = = = = = = = = = = = = = = = = = = 
+0.97 = = = = = = = = 1.00 = = = = = = = 0.99 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.86 = 0.60 0.88 = = = = = 0.96 = = = = = = = = = 0.71 = = = = = = = = = = = = = = = = = = = = = = = = = = = 0.88 0.88 = = = = = = 0.62 = = = = = = = = = = = = = 0.52 0.75 = = = = 
+= = = = = = = = = = = = = = = = = 0.98 = 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 1.00 = = = 0.91 = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 0.54 = = = = = = = = = = = 1.00 = = = 
+= 1.00 = 1.00 = 0.60 = = = = = = = = = = = 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = 0.94 = 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 0.67 = = = = = = = = = = = = = = = = = = 1.00 = = = = 
+0.74 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 0.84 0.93 = = = = 
+= 1.00 = 1.00 = 0.59 = = = = = = = = = = = 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.83 = = 0.98 = = = = = = = = = = = 0.89 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.99 = = 1.00 = = = = 1.00 = 1.00 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+1.00 = = 1.00 = = = = 1.00 = 1.00 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= 0.85 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 0.66 = = = = = = = = = = = = = = = = = 0.84 = = = = 
+0.98 = = = = = = = = 1.00 = = = = = = = 0.99 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.87 = = 1.00 0.86 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = 0.93 = = = = = = = = = = = = 0.95 = = = = = = = = = = = = 0.57 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+1.00 0.93 = 0.80 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.99 = = 1.00 = 1.00 1.00 = 1.00 = 1.00 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 0.98 = = = = = = = 0.84 = = = = = = = = = = = = 0.85 0.85 0.85 = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+0.68 = = = = = = = = = = = = = = 0.94 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 1.00 = = = = = = = = = = = = = = = = = = = = 1.00 = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 1.00 = = = = = = = = = = = = = = = = = = = 
+= 0.64 = 1.00 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+END PHASEPROBS
