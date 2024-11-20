@@ -22,4 +22,12 @@ maindir = /home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/Gen
 
 com esses arquivos foi possível executar o Geneland através dp Rscript "Geneland_Cnemis.R"
 
+Abaixo estão os primeiros resultados 
+
 ![Geneland Analysis Plot](https://github.com/nathanufpb/Phylogeogra/blob/main/Geneland/Scripts/Geneland_analysis/noadmix/Rplot01.png)
+
+![Geneland Analysis Plot](https://github.com/nathanufpb/Phylogeogra/Geneland/Scripts/Geneland_analysis/output_first.jpg)
+
+em seguida estão os resultados para multiplas corridas:
+
+
