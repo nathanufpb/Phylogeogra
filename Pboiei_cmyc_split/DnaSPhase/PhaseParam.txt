@@ -1,0 +1,1 @@
+phase -MR0 -d1 C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\Pboiei_cmyc_split\DnaSPhase\PhaseInput.txt C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\Pboiei_cmyc_split\DnaSPhase\cmyc-uphased_intron2.fas 100 1 100

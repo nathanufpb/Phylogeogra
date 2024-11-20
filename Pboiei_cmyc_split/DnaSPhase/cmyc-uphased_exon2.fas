@@ -1,0 +1,414 @@
+*************************************************************
+****                                                     ****
+****            Output from PHASE v2.1.1                 ****
+****  Code by M Stephens, with contributions from N Li   ****
+****                                                     ****
+*************************************************************
+
+BEGIN COMMAND_LINE 
+phase -MR0 -d1 C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\Pboiei_cmyc_split\DnaSPhase\PhaseInput.txt C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\Pboiei_cmyc_split\DnaSPhase\cmyc-uphased_exon2.fas 100 1 100 
+END COMMAND_LINE 
+
+BEGIN OUTFILE_LIST
+C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\Pboiei_cmyc_split\DnaSPhase\cmyc-uphased_exon2.fas_freqs : haplotype frequency estimates
+C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\Pboiei_cmyc_split\DnaSPhase\cmyc-uphased_exon2.fas_pairs : most likely haplotype pairs for each individual
+C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\Pboiei_cmyc_split\DnaSPhase\cmyc-uphased_exon2.fas_recom : estimates of recombination parameters
+C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\Pboiei_cmyc_split\DnaSPhase\cmyc-uphased_exon2.fas_monitor : file for monitoring convergence
+END OUTFILE_LIST
+
+BEGIN INPUT_SUMMARY
+Number of Individuals: 42
+Number of Loci: 18
+Positions of loci: 53 55 64 78 83 94 99 110 113 114 115 126 150 152 153 168 217 234 
+END INPUT_SUMMARY
+
+List of haplotypes found in best reconstruction, with counts.
+(See file C:\users\nathan\Documents\Doutorado_diversidade_genética\Phylogeogra\Pboiei_cmyc_split\DnaSPhase\cmyc-uphased_exon2.fas_freqs for haplotype population frequency estimates)
+
+BEGIN LIST_SUMMARY
+         1 ATT 1 GT 1 GC 3 GCAAGGGG    1.000000
+         2 ATT 1 GT 3 GC 0 GCAAGGGG    3.000000
+         3 ATT 1 GT 3 GC 0 GCAAGGGA    2.000000
+         4 ATT 1 GT 3 GC 1 GCAAGGGG    8.000000
+         5 ATT 1 TT 3 GC 1 GCAAGGGG    3.000000
+         6 ATT 2 GT 3 GC 1 GCAAGGGG   20.000000
+         7 ATT 2 GC 0 GA 1 ATAAGGGG    4.000000
+         8 GAT 1 GT 3 GC 1 GCAAGGGG    2.000000
+         9 GAT 2 GT 3 GC 1 GCAAGGGG    2.000000
+        10 GAT 3 GT 3 GC 1 GCAAGGGA    1.000000
+        11 GTT 1 GT 3 GC 1 GCAAGGGG   20.000000
+        12 GTT 1 GT 3 GC 1 GCAAGAGG    5.000000
+        13 GTT 1 GT 3 AC 1 GTAAGGGG    1.000000
+        14 GTT 1 GC 0 GC 1 GCAAGGGG    1.000000
+        15 GTT 2 GT 3 GC 1 GCAAGGGG    4.000000
+        16 GTT 2 GT 3 GC 1 GCAAGGAG    2.000000
+        17 GTT 2 GC 3 GC 1 GCAAGGGG    3.000000
+        18 GTT 2 GC 3 GC 1 GCTCAGGG    1.000000
+        19 GTG 2 GT 3 GC 1 GCAAGGGG    1.000000
+END LIST_SUMMARY
+
+
+Summary of best reconstruction
+(numbers refer to the list of haplotypes given above)
+
+BEGIN BESTPAIRS_SUMMARY
+#AA925: (6,8)
+#AA936: (6,13)
+#AA946: (11,15)
+#AA947: (6,11)
+#AA948: (6,11)
+#AA949: (8,11)
+#BC726: (11,11)
+#BC727: (11,11)
+#BC728: (4,11)
+#BC729: (3,11)
+#BC730: (2,19)
+#BC763: (4,11)
+#BC765: (2,3)
+#BC766: (4,4)
+#BC770: (2,9)
+#BMD376: (7,7)
+#BMD377: (1,6)
+#BMD826: (4,4)
+#BMD830: (7,11)
+#BMD840: (7,14)
+#FC1015: (5,17)
+#FC1020: (11,15)
+#FC1037: (11,18)
+#FC1038: (11,12)
+#FC1058: (10,17)
+#FC1059: (12,16)
+#FC1065: (5,5)
+#FC481: (11,17)
+#SM1553: (6,6)
+#SM1577: (6,6)
+#SM1578: (6,6)
+#SM1580: (6,6)
+#SM1581: (6,6)
+#SM1582: (6,6)
+#SM1587: (6,6)
+#TAP1474: (9,11)
+#TAP1475: (11,11)
+#TAP1476: (4,12)
+#TAP1477: (6,12)
+#TAP1479: (11,16)
+#TAP1480: (4,12)
+#TAP1483: (15,15)
+END BESTPAIRS_SUMMARY
+
+
+Haplotype estimates for each individual, with uncertain phases enclosed in ()
+and uncertain genotypes enclosed in []:
+
+BEGIN BESTPAIRS1
+0 #AA925
+A T T (2) G T 3 G C 1 G C A A G G G G 
+G A T (1) G T 3 G C 1 G C A A G G G G 
+0 #AA936
+(A) T T (2) G T 3 (G) C 1 G (C) A A G G G G 
+(G) T T (1) G T 3 (A) C 1 G (T) A A G G G G 
+0 #AA946
+G T T 1 G T 3 G C 1 G C A A G G G G 
+G T T 2 G T 3 G C 1 G C A A G G G G 
+0 #AA947
+(A) T T 2 G T 3 G C 1 G C A A G G G G 
+(G) T T 1 G T 3 G C 1 G C A A G G G G 
+0 #AA948
+(A) T T 2 G T 3 G C 1 G C A A G G G G 
+(G) T T 1 G T 3 G C 1 G C A A G G G G 
+0 #AA949
+G A T 1 G T 3 G C 1 G C A A G G G G 
+G T T 1 G T 3 G C 1 G C A A G G G G 
+0 #BC726
+G T T 1 G T 3 G C 1 G C A A G G G G 
+G T T 1 G T 3 G C 1 G C A A G G G G 
+0 #BC727
+G T T 1 G T 3 G C 1 G C A A G G G G 
+G T T 1 G T 3 G C 1 G C A A G G G G 
+0 #BC728
+A T T 1 G T 3 G C 1 G C A A G G G G 
+G T T 1 G T 3 G C 1 G C A A G G G G 
+0 #BC729
+A T T 1 G T 3 G C 0 G C A A G G G A 
+G T T 1 G T 3 G C 1 G C A A G G G G 
+0 #BC730
+(A) T (T) (1) G T 3 G C (0) G C A A G G G G 
+(G) T (G) (2) G T 3 G C (1) G C A A G G G G 
+0 #BC763
+A T T 1 G T 3 G C 1 G C A A G G G G 
+G T T 1 G T 3 G C 1 G C A A G G G G 
+0 #BC765
+A T T 1 G T 3 G C 0 G C A A G G G G 
+A T T 1 G T 3 G C 0 G C A A G G G A 
+0 #BC766
+A T T 1 G T 3 G C 1 G C A A G G G G 
+A T T 1 G T 3 G C 1 G C A A G G G G 
+0 #BC770
+(A) (T) T (1) G T 3 G C 0 G C A A G G G G 
+(G) (A) T (2) G T 3 G C 1 G C A A G G G G 
+0 #BMD376
+A T T 2 G C 0 G A 1 A T A A G G G G 
+A T T 2 G C 0 G A 1 A T A A G G G G 
+0 #BMD377
+A T T (1) G T (1) G C (3) G C A A G G G G 
+A T T (2) G T (3) G C (1) G C A A G G G G 
+0 #BMD826
+A T T 1 G T 3 G C 1 G C A A G G G G 
+A T T 1 G T 3 G C 1 G C A A G G G G 
+0 #BMD830
+(A) T T (2) G C 0 G A 1 A T A A G G G G 
+(G) T T (1) G T 3 G C 1 G C A A G G G G 
+0 #BMD840
+(A) T T (2) G C 0 G A 1 A T A A G G G G 
+(G) T T (1) G C 0 G C 1 G C A A G G G G 
+0 #FC1015
+A T T 1 T T 3 G C 1 G C A A G G G G 
+G T T 2 G C 3 G C 1 G C A A G G G G 
+0 #FC1020
+G T T 1 G T 3 G C 1 G C A A G G G G 
+G T T 2 G T 3 G C 1 G C A A G G G G 
+0 #FC1037
+G T T (1) G (T) 3 G C 1 G C (A) (A) (G) G G G 
+G T T (2) G (C) 3 G C 1 G C (T) (C) (A) G G G 
+0 #FC1038
+G T T 1 G T 3 G C 1 G C A A G G G G 
+G T T 1 G T 3 G C 1 G C A A G A G G 
+0 #FC1058
+G (A) T (3) G (T) 3 G C 1 G C A A G G G (A) 
+G (T) T (2) G (C) 3 G C 1 G C A A G G G (G) 
+0 #FC1059
+G T T (1) G T 3 G C 1 G C A A G A (G) G 
+G T T (2) G T 3 G C 1 G C A A G G (A) G 
+0 #FC1065
+A T T 1 T T 3 G C 1 G C A A G G G G 
+A T T 1 T T 3 G C 1 G C A A G G G G 
+0 #FC481
+G T T 1 G T 3 G C 1 G C A A G G G G 
+G T T 2 G C 3 G C 1 G C A A G G G G 
+0 #SM1553
+A T T 2 G T 3 G C 1 G C A A G G G G 
+A T T 2 G T 3 G C 1 G C A A G G G G 
+0 #SM1577
+A T T 2 G T 3 G C 1 G C A A G G G G 
+A T T 2 G T 3 G C 1 G C A A G G G G 
+0 #SM1578
+A T T 2 G T 3 G C 1 G C A A G G G G 
+A T T 2 G T 3 G C 1 G C A A G G G G 
+0 #SM1580
+A T T 2 G T 3 G C 1 G C A A G G G G 
+A T T 2 G T 3 G C 1 G C A A G G G G 
+0 #SM1581
+A T T 2 G T 3 G C 1 G C A A G G G G 
+A T T 2 G T 3 G C 1 G C A A G G G G 
+0 #SM1582
+A T T 2 G T 3 G C 1 G C A A G G G G 
+A T T 2 G T 3 G C 1 G C A A G G G G 
+0 #SM1587
+A T T 2 G T 3 G C 1 G C A A G G G G 
+A T T 2 G T 3 G C 1 G C A A G G G G 
+0 #TAP1474
+G (A) T 2 G T 3 G C 1 G C A A G G G G 
+G (T) T 1 G T 3 G C 1 G C A A G G G G 
+0 #TAP1475
+G T T 1 G T 3 G C 1 G C A A G G G G 
+G T T 1 G T 3 G C 1 G C A A G G G G 
+0 #TAP1476
+(A) T T 1 G T 3 G C 1 G C A A G G G G 
+(G) T T 1 G T 3 G C 1 G C A A G A G G 
+0 #TAP1477
+(A) T T 2 G T 3 G C 1 G C A A G (G) G G 
+(G) T T 1 G T 3 G C 1 G C A A G (A) G G 
+0 #TAP1479
+G T T (1) G T 3 G C 1 G C A A G G G G 
+G T T (2) G T 3 G C 1 G C A A G G A G 
+0 #TAP1480
+(A) T T 1 G T 3 G C 1 G C A A G G G G 
+(G) T T 1 G T 3 G C 1 G C A A G A G G 
+0 #TAP1483
+G T T 2 G T 3 G C 1 G C A A G G G G 
+G T T 2 G T 3 G C 1 G C A A G G G G 
+END BESTPAIRS1
+
+
+Haplotype estimates for each individual, with uncertain phases enclosed in ()
+and uncertain genotypes enclosed in []
+with phase known positions indicated by =
+
+BEGIN BESTPAIRS2
+0 #AA925
+A T = (2) = = = = = = = = = = = = = = 
+G A = (1) = = = = = = = = = = = = = = 
+0 #AA936
+(A) = = (2) = = = (G) = = = (C) = = = = = = 
+(G) = = (1) = = = (A) = = = (T) = = = = = = 
+0 #AA946
+= = = 1 = = = = = = = = = = = = = = 
+= = = 2 = = = = = = = = = = = = = = 
+0 #AA947
+(A) = = 2 = = = = = = = = = = = = = = 
+(G) = = 1 = = = = = = = = = = = = = = 
+0 #AA948
+(A) = = 2 = = = = = = = = = = = = = = 
+(G) = = 1 = = = = = = = = = = = = = = 
+0 #AA949
+= A = = = = = = = = = = = = = = = = 
+= T = = = = = = = = = = = = = = = = 
+0 #BC726
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #BC727
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #BC728
+A = = = = = = = = = = = = = = = = = 
+G = = = = = = = = = = = = = = = = = 
+0 #BC729
+A = = = = = = = = 0 = = = = = = = A 
+G = = = = = = = = 1 = = = = = = = G 
+0 #BC730
+(A) = (T) (1) = = = = = (0) = = = = = = = = 
+(G) = (G) (2) = = = = = (1) = = = = = = = = 
+0 #BC763
+A = = = = = = = = = = = = = = = = = 
+G = = = = = = = = = = = = = = = = = 
+0 #BC765
+= = = = = = = = = = = = = = = = = G 
+= = = = = = = = = = = = = = = = = A 
+0 #BC766
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #BC770
+(A) (T) = (1) = = = = = 0 = = = = = = = = 
+(G) (A) = (2) = = = = = 1 = = = = = = = = 
+0 #BMD376
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #BMD377
+= = = (1) = = (1) = = (3) = = = = = = = = 
+= = = (2) = = (3) = = (1) = = = = = = = = 
+0 #BMD826
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #BMD830
+(A) = = (2) = C 0 = A = A T = = = = = = 
+(G) = = (1) = T 3 = C = G C = = = = = = 
+0 #BMD840
+(A) = = (2) = = = = A = A T = = = = = = 
+(G) = = (1) = = = = C = G C = = = = = = 
+0 #FC1015
+A = = 1 T T = = = = = = = = = = = = 
+G = = 2 G C = = = = = = = = = = = = 
+0 #FC1020
+= = = 1 = = = = = = = = = = = = = = 
+= = = 2 = = = = = = = = = = = = = = 
+0 #FC1037
+= = = (1) = (T) = = = = = = (A) (A) (G) = = = 
+= = = (2) = (C) = = = = = = (T) (C) (A) = = = 
+0 #FC1038
+= = = = = = = = = = = = = = = G = = 
+= = = = = = = = = = = = = = = A = = 
+0 #FC1058
+= (A) = (3) = (T) = = = = = = = = = = = (A) 
+= (T) = (2) = (C) = = = = = = = = = = = (G) 
+0 #FC1059
+= = = (1) = = = = = = = = = = = A (G) = 
+= = = (2) = = = = = = = = = = = G (A) = 
+0 #FC1065
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #FC481
+= = = 1 = T = = = = = = = = = = = = 
+= = = 2 = C = = = = = = = = = = = = 
+0 #SM1553
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #SM1577
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #SM1578
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #SM1580
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #SM1581
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #SM1582
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #SM1587
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #TAP1474
+= (A) = 2 = = = = = = = = = = = = = = 
+= (T) = 1 = = = = = = = = = = = = = = 
+0 #TAP1475
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0 #TAP1476
+(A) = = = = = = = = = = = = = = G = = 
+(G) = = = = = = = = = = = = = = A = = 
+0 #TAP1477
+(A) = = 2 = = = = = = = = = = = (G) = = 
+(G) = = 1 = = = = = = = = = = = (A) = = 
+0 #TAP1479
+= = = (1) = = = = = = = = = = = = G = 
+= = = (2) = = = = = = = = = = = = A = 
+0 #TAP1480
+(A) = = = = = = = = = = = = = = G = = 
+(G) = = = = = = = = = = = = = = A = = 
+0 #TAP1483
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+END BESTPAIRS2
+
+
+Phase probabilities at each site
+with phase known positions indicated by =
+and missing data positions indicated by ?
+
+BEGIN PHASEPROBS
+0.99 0.98 = 0.71 = = = = = = = = = = = = = = 
+0.63 = = 0.70 = = = 0.80 = = = 0.80 = = = = = = 
+= = = 1.00 = = = = = = = = = = = = = = 
+0.81 = = 1.00 = = = = = = = = = = = = = = 
+0.81 = = 1.00 = = = = = = = = = = = = = = 
+= 1.00 = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+1.00 = = = = = = = = = = = = = = = = = 
+0.93 = = = = = = = = 0.99 = = = = = = = 0.93 
+0.66 = 0.62 0.88 = = = = = 0.88 = = = = = = = = 
+1.00 = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = 1.00 
+= = = = = = = = = = = = = = = = = = 
+0.78 0.78 = 0.80 = = = = = 0.97 = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+= = = 0.70 = = 0.81 = = 0.84 = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0.77 = = 0.80 = 1.00 1.00 = 1.00 = 1.00 1.00 = = = = = = 
+0.50 = = 0.50 = = = = 1.00 = 1.00 1.00 = = = = = = 
+0.96 = = 0.99 0.99 0.95 = = = = = = = = = = = = 
+= = = 1.00 = = = = = = = = = = = = = = 
+= = = 0.73 = 0.73 = = = = = = 0.76 0.76 0.76 = = = 
+= = = = = = = = = = = = = = = 1.00 = = 
+= 0.78 = 0.86 = 0.84 = = = = = = = = = = = 0.66 
+= = = 0.89 = = = = = = = = = = = 0.95 0.88 = 
+= = = = = = = = = = = = = = = = = = 
+= = = 0.94 = 1.00 = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+= 0.51 = 1.00 = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = 
+0.65 = = = = = = = = = = = = = = 1.00 = = 
+0.88 = = 0.95 = = = = = = = = = = = 0.86 = = 
+= = = 0.76 = = = = = = = = = = = = 1.00 = 
+0.66 = = = = = = = = = = = = = = 1.00 = = 
+= = = = = = = = = = = = = = = = = = 
+END PHASEPROBS

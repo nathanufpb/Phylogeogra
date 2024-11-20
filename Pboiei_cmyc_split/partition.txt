@@ -1,0 +1,3 @@
+cmyc_exon2 = 1-303
+cmyc_intron2 = 304-654
+cmyc_exon3 = 655-871

@@ -1,7 +1,7 @@
-#define OUTFILE /home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/Structure/Result_2xmfa/Structure_result/LInkage_independent/Results/LInkage_independent_run_5
-#define INFILE /home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/Structure/Result_2xmfa/Structure_result/project_data
-#define NUMINDS 40
-#define NUMLOCI 35
+#define OUTFILE /home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/Structure/Result_structure/Linkage_independent/Results/Linkage_independent_run_16
+#define INFILE /home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/Structure/Result_structure/project_data
+#define NUMINDS 42
+#define NUMLOCI 45
 #define LABEL 1 
 #define POPDATA 0 
 #define POPFLAG 0 
@@ -16,12 +16,12 @@
 #define EXTRACOLS 0
 #define MISSING -9
 #define PLOIDY 2
-#define MAXPOPS 5
+#define MAXPOPS 4
 #define BURNIN 5000
 #define NUMREPS 5000
 
 #define RANDOMIZE 0
-#define SEED 1238
+#define SEED 18
 
 
 #define LINKAGE 1 

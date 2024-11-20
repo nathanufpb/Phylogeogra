@@ -1,0 +1,3 @@
+amas split -f fasta -d dna -i cmyc-uphased.fasta -l partition.txt
+
+#apos o split das sequencias, removeu 2 pares iniciais de base dos exons2 e 3 para que a janela de leitura começasse no primeiro codon
