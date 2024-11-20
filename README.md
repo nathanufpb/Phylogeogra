@@ -2,6 +2,7 @@
  repository for phlogeographic analysis
 
 
+
 A análise do Geneland começou criando pastas para os genes nucleares phaseados e separados em 2 exons e 1 intron, e uma pasta para os dois outros genes mitocondriais.
 
 os scripts em python dentro da pasta Geneland/Scripts (fasta2haplotype_matrix_mitocondrial.py e fasta2haplotype_matrix_nuclear_gen.py)
