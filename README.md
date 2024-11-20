@@ -26,7 +26,7 @@ Abaixo estão os primeiros resultados
 
 ![Geneland Analysis Plot](https://github.com/nathanufpb/Phylogeogra/blob/main/Geneland/Scripts/Geneland_analysis/noadmix/Rplot01.png)
 
-![Geneland Analysis Plot](https://github.com/nathanufpb/Phylogeogra/Geneland/Scripts/Geneland_analysis/output_first.jpg)
+![Geneland Analysis Plot](https://github.com/nathanufpb/Phylogeogra/blob/main/Geneland/Scripts/Geneland_analysis/output_first.jpg)
 
 em seguida estão os resultados para multiplas corridas:
 
