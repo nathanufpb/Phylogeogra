@@ -5,8 +5,8 @@ nit : 1e+06
 thinning : 1000
 varnpop : TRUE
 npopmin : 1
-npopinit : 10
-npopmax : 10
+npopinit : 5
+npopmax : 5
 spatial : TRUE
 delta.coord : 0
 use.geno1 : TRUE
