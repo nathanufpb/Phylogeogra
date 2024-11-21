@@ -1,8 +1,8 @@
 nindiv : 42
 rate.max : 42
 nb.nuclei.max : 84
-nit : 5e+06
-thinning : 5000
+nit : 5e+05
+thinning : 500
 varnpop : TRUE
 npopmin : 1
 npopinit : 5

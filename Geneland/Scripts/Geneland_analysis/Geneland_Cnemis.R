@@ -81,10 +81,10 @@ PlotTessellation(coord, path.mcmc='./', printit=TRUE, path='./')
 maindir <- "/home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/Geneland/Scripts/Geneland_analysis/" #### dir 
 
 
-nrun <- 10        ### number of runs
+nrun <- 5        ### number of runs
 burnin <- 200     ### burnin
-chain <- 5000000  ### number of steps in chain
-freq <-      5000 ### sampling frequency
+chain <- 500000  ### number of steps in chain
+freq <-      500 ### sampling frequency
 pop <- 5          ### max number of pops 
 
 for(irun in 1:nrun)
@@ -125,11 +125,16 @@ for(irun in 1:nrun)
 #### log posterior density calculation ###
 lpd <- rep(NA,nrun)
 
-for(irun in 1:nrun)
-{
-  path.mcmc <- paste(maindir,'/',irun,"/",sep="")
-  path.lpd <- paste(path.mcmc,"log.posterior.density.txt",sep="")
-  lpd[irun] <- mean(scan(path.lpd)[-(1:burnin)])
+for (irun in 1:nrun) {
+  path.mcmc <- paste(maindir, "10_Run", irun, "/", sep="") # Ajuste para "10_Run"
+  path.lpd <- paste(path.mcmc, "log.posterior.density.txt", sep="")
+  
+  if (file.exists(path.lpd)) { # Verifica se o arquivo existe
+    lpd[irun] <- mean(scan(path.lpd)[-(1:burnin)])
+  } else {
+    warning(paste("Arquivo não encontrado:", path.lpd))
+    lpd[irun] <- NA
+  }
 }
 
 
@@ -142,14 +147,14 @@ lpd
 
 for(irun in 1:nrun)
 {
-  path.mcmc <- paste(maindir,'/',irun,"/",sep="")
+  path.mcmc <- paste(maindir,"10_Run",irun,"/",sep="")
   setwd(file.path(path.mcmc))
   Plotnpop(path.mcmc=path.mcmc, burnin=200)
 }
 
 for(irun in 1:nrun)
 {
-  path.mcmc <- paste(maindir,'/',irun,"/",sep="")
+  path.mcmc <- paste(maindir,"10_Run",irun,"/",sep="")
   setwd(file.path(path.mcmc))
   PosteriorMode(coordinates=coord, path.mcmc="./", file="map.pdf")
 }
@@ -163,12 +168,17 @@ for(irun in 1:nrun)
 
 ###Admixture
 
+geno <- as.matrix(as.numeric(geno))
+geno[is.na(geno)] <- NA
+
+geno <- as.matrix(apply(geno, 2, as.numeric))
+
 HZ(coordinates=coord,   
    geno.dip.codom=geno,
-   path.mcmc.noadm=maindir,
+   path.mcmc.noadm=maindir,"10_Run",
    nit=20000,
    thinning=10,
-   path.mcmc.adm="C:/Users/Marcelo/Dropbox/Pseudis tocantins/GENELAND/nuclear/1")
+   path.mcmc.adm="/home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/Geneland/Scripts/Geneland_analysis/")
 
 
 admix.dir <- "C:/Users/Marcelo/Dropbox/Pseudis tocantins/Analises/GENELAND/nuclear/admix"

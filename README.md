@@ -92,4 +92,7 @@ Abaixo estão os primeiros resultados
 
 em seguida estão os resultados para multiplas corridas:
 
+![Geneland Analysis Plot](https://github.com/nathanufpb/Phylogeogra/blob/main/images/Rplot_Multi_analysis.png)
+
+![Geneland Analysis Plot](https://github.com/nathanufpb/Phylogeogra/blob/main/images/Result_multiple_runs.jpg)
 
