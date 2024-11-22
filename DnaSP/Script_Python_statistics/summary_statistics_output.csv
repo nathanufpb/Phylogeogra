@@ -1,0 +1,4 @@
+Loci,Population,Length (bp),Sample Size (N),Segregating Sites (S),Number of Haplotypes (H),Haplotypes Diversity (Hd),Nucleotide Diversity (pi),Tajima's D,Theta,Theta-W (from S),Average Nucleotide Differences
+cmyc-phased_exon2,exon2,301,84,18,19,0.8729,0.00768,-1.0429,0.0139,4.1832,2.3118
+cmyc-phased_exon3,exon3,215,84,7,10,0.7269,0.00432,-0.8063,0.0076,1.6268,0.9286
+cmyc-phased_intron2,Intron2,351,84,14,20,0.8557,0.00527,-1.8518,0.0093,3.2536,1.8491

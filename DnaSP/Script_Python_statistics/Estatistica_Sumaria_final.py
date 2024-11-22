@@ -309,7 +309,7 @@ def generate_summary_for_all_populations(base_folder):
     return ordered_df
 
 # Caminho base contendo subpastas de populações
-base_folder = "/Users/felipemedeiros/Dropbox/Disciplinas UFPB/Filogeografia/Filogeografia_Felipe_Camura/Dados_alunos/Dia3/DnaSP_estimativas genéticas/DNAsp"
+base_folder = "/home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/DnaSP/nuc_files"
 
 try:
     summary_df = generate_summary_for_all_populations(base_folder)

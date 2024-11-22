@@ -48,7 +48,6 @@ Em seguida, o software Treeannotator (BOUCKAERT et al., 2014) juntamente com o B
 
 GeneLand
 
-
 Geneland é um pacote escrito em linguagem R que permite fazer uso de genótipos multilocus individuais georreferenciados para a inferência do número de populações e da localização espacial de descontinuidades genéticas entre essas populações. As principais suposições do método são: (i) o número de populações é desconhecido e todos os valores são considerados a priori igualmente prováveis, (ii) as populações são espalhadas por áreas dadas por uma união de alguns polígonos de localização desconhecida no domínio espacial, (iii) o equilíbrio de Hardy-Weinberg é assumido dentro de cada população e (iv) as frequências de alelos em cada população são desconhecidas e tratadas como variáveis aleatórias seguindo o chamado modelo de Dirichlet ou modelo de Falush [(GUILLOT; MORTIER; ESTOUP, 2005)](https://www.zotero.org/google-docs/?oUPvZg).
 
 Utilizamos o Geneland para verificar se existe estrutura populacional na espécie Procerathrophys boiei coletada ao longo do nordeste brasileiro sob brejos de altitude por Carnaval 2007.
@@ -76,7 +75,6 @@ Com esses arquivos foi possível executar o Geneland através dp Rscript "Genela
 
 ![1732239609054](image/README/1732239609054.png)
 
-
 ![1732239630984](image/README/1732239630984.png)
 
 ![1732239646866](image/README/1732239646866.png)
@@ -84,3 +82,7 @@ Com esses arquivos foi possível executar o Geneland através dp Rscript "Genela
 O Programa estimou três populações evolutivamente separadas entre PE e CE e entre PB e PE mas as probabilidades permaneceram baixas
 
 7. Estimativas genéticas, Análise de variância molecular (AMOVA) e Redes de haplótipos
+
+   #inserir tabela
+
+   ![1732302281869](image/README/1732302281869.png)
