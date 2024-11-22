@@ -1,0 +1,3 @@
+nxdom : 200
+nydom : 200
+burnin : 1000

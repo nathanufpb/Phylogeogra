@@ -78,19 +78,19 @@ PlotTessellation(coord, path.mcmc='./', printit=TRUE, path='./')
 
 #######Loop for multiple runs#######################################################################
 
-maindir <- "/home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/Geneland/Scripts/Geneland_analysis/" #### dir 
+maindir <- "/home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/Geneland/Scripts/Geneland_analysis/resultsnm" #### dir 
 
 
 nrun <- 5        ### number of runs
-burnin <- 200     ### burnin
-chain <- 500000  ### number of steps in chain
-freq <-      500 ### sampling frequency
-pop <- 5          ### max number of pops 
+burnin <- 1000     ### burnin
+chain <- 10000000  ### number of steps in chain
+freq <-      1000 ### sampling frequency
+pop <- 10          ### max number of pops (aumentar o valor de k se o numero de clusters for maior que o esperado)
 
 for(irun in 1:nrun)
 {
   ## define path to MCMC directory
-  path.mcmc <- paste(maindir,'10_Run',irun,"/",sep="")
+  path.mcmc <- paste(maindir,'/',irun,"/",sep="")
   
   ### create directory
   if (file.exists(path.mcmc)){
@@ -104,13 +104,17 @@ for(irun in 1:nrun)
   system(paste(path.mcmc))
   MCMC(coordinates=coord,
        geno.dip.codom=geno,
-       #geno.hap=mt,
+       geno.hap=mt,
+       rate.max = 42,
+       nb.nuclei.max = 126,
+       delta.coord = 0.01,
        varnpop=TRUE,
        npopmax=pop,
        spatial=TRUE,
        freq.model="Uncorrelated",
        nit=chain,
        thinning=freq,
+       filter.null.alleles = T,
        path.mcmc=path.mcmc)
   
   
@@ -126,7 +130,7 @@ for(irun in 1:nrun)
 lpd <- rep(NA,nrun)
 
 for (irun in 1:nrun) {
-  path.mcmc <- paste(maindir, "10_Run", irun, "/", sep="") # Ajuste para "10_Run"
+  path.mcmc <- paste(maindir, "/", irun, "/", sep="") # Ajuste para "10_Run"
   path.lpd <- paste(path.mcmc, "log.posterior.density.txt", sep="")
   
   if (file.exists(path.lpd)) { # Verifica se o arquivo existe
@@ -147,26 +151,28 @@ lpd
 
 for(irun in 1:nrun)
 {
-  path.mcmc <- paste(maindir,"10_Run",irun,"/",sep="")
+  path.mcmc <- paste(maindir,"/",irun,"/",sep="")
   setwd(file.path(path.mcmc))
   Plotnpop(path.mcmc=path.mcmc, burnin=200)
 }
 
 for(irun in 1:nrun)
 {
-  path.mcmc <- paste(maindir,"10_Run",irun,"/",sep="")
+  path.mcmc <- paste(maindir,"/",irun,"/",sep="")
   setwd(file.path(path.mcmc))
   PosteriorMode(coordinates=coord, path.mcmc="./", file="map.pdf")
 }
 
 
 
+# Cria um mapa de probabilidade de pertencimento aos clusters
+PlotTessellation(coord, path.mcmc='./', printit=TRUE, path='./')
 
 
 
 
 
-###Admixture
+################Admixture
 
 geno <- as.matrix(as.numeric(geno))
 geno[is.na(geno)] <- NA
