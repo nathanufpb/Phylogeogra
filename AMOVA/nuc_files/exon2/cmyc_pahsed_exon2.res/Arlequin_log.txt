@@ -1,0 +1,64 @@
+Log file path: /home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/AMOVA/nuc_files/exon2/cmyc_pahsed_exon2.res/Arlequin_log.txt
+Core Routine Directory: Z:/home/nathan/Documents/programs/arlecore_win/
+Random number generator initialized with lidum=-518120
+Reading project profile section...
+done !
+Opening next project...
+/home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/AMOVA/nuc_files/exon2/cmyc_pahsed_exon2.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (22/11/24 at 23:50:00)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Project file, Line #20 : Keyword "CompDistMatrix" is now obsolete. Please set this parameter directly throug the interface
+
+Reading Haplotype List ...
+	Reading haplotype list in external file "cmyc-ohased_exon2.hap"
+done ! (0 ms)
+	Reading Samples section ...
+	Reading PE_N_S ... 
+	done ! (0 ms)
+
+	Reading PE_S_N ... 
+	done ! (0 ms)
+
+	done reading Samples section! (0 ms)
+done ! (0 ms)
+
+------------------------------------------------------------------------
+  Checking all selected options...
+		Building vectors of alleles...
+		done in 0 ms
+  done!
+  check selected settings...
+  done!
+		Beginning distance computations ...
+		done ! (0 ms)
+			Checking haplotype redundancy from a computed distance matrix:
+
+Population 'PE_N_S' : 
+	Computing standard diversity indices ...
+	done !
+	Computing molecular diversity indices ...
+		Computing BMat ...
+		done ! (0 ms)
+	done ! (0 ms)
+done in 28 ms
+
+Population 'PE_S_N' : 
+	Computing standard diversity indices ...
+	done !
+	Computing molecular diversity indices ...
+		Computing BMat ...
+		done ! (0 ms)
+	done ! (0 ms)
+done in 17 ms
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (22/11/24 at 23:50:00))
+Total computing time for this run : 0h 0m 0s 67 ms
+////////////////////////////////////////////////////////////////////
+
+Successful run of /home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/AMOVA/nuc_files/exon2/cmyc_pahsed_exon2.arp

@@ -1,0 +1,6 @@
+/home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/AMOVA/nuc_files/exon2
+use_interf_settings
+cmyc_pahsed_exon2.arp
+0
+0
+end

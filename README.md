@@ -83,6 +83,6 @@ O Programa estimou três populações evolutivamente separadas entre PE e CE e e
 
 7. Estimativas genéticas, Análise de variância molecular (AMOVA) e Redes de haplótipos
 
-   #inserir tabela
+   Foi estimada a diversidade genética do Procerathrophys boiei utilizando o script (/home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/DnaSP/Script_Python_statistics/Estatistica_Sumaria_final.py)
 
-   ![1732302281869](image/README/1732302281869.png)
+   O resultado está em /home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/DnaSP/Script_Python_statistics/Tabela_formatada_1.pdf
