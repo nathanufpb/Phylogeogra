@@ -1,0 +1,195 @@
+
+
+ 
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (27/11/24 at 21:32:34)
+////////////////////////////////////////////////////////////////////
+
+ 
+
+Project information:
+--------------------
+	NbSamples      =  2
+	DataType       =  DNA
+	GenotypicData  =  0
+
+==============================
+Settings used for Calculations
+==============================
+
+ General settings:
+ -----------------
+        Deletion Weight                = 1
+        Transition Weight Weight       = 1
+        Tranversion Weight Weight      = 1
+        Epsilon Value                  = 1e-07
+        Significant digits for output  = 5
+        Use original haplotype definition
+        Alllowed level of missing data = 0.05
+
+ Active Tasks:
+ -------------
+
+    Analysis of Molecular Variance:
+    -------------------------------
+        No. of Permutations = 1000
+        Print out inter-haplotypic distance matrix
+
+       Distance matrix:
+            Compute distance matrix
+            Molecular distance : Pairwise difference
+            Gamma a value      = 0
+
+ 
+===============================================================================
+== GENETIC STRUCTURE ANALYSIS
+===============================================================================
+
+
+Number of usable loci for distance computation : 12
+Allowed level of missing data                  : 0.05
+
+List of usable loci :
+---------------------
+   1     2     3     4     5     6     7     8     9    10    11    12  
+
+List of loci with too much missing data :
+-----------------------------------------
+
+NONE
+
+ 
+---------------------------------------------------------------------------
+Matrix of Euclidian square distances used in the genetic structure section:
+---------------------------------------------------------------------------
+
+Reference: Jukes, T. and Cantor, C. 1969.
+           Jin, L. and M. Nei (1990).
+           Kumar, S., Tamura, K., and M. Nei. 1993.
+           Tamura, K., 1992.
+           Kimura, M. 1980.
+           Tajima, F. and Nei, M. 1984.
+           Tamura, K., and M. Nei, 1993.
+
+Euclidean square distance matrix used for AMOVA computations: Haplotype Data from cmyc-phased_intron2.fas DnaSP file
+
+     Distance method: Pairwise difference
+
+	[[DistanceMatrix]]
+
+		MatrixName= ""
+		MatrixSize= 15
+		LabelPosition=LINE
+		MatrixData={
+ #[INFO # 1] : missing haplotype label(s)
+
+
+   0.00000
+   2.00000   0.00000
+   3.00000   3.00000   0.00000
+   1.00000   1.00000   2.00000   0.00000
+   2.00000   2.00000   3.00000   1.00000   0.00000
+   3.00000   3.00000   4.00000   2.00000   3.00000   0.00000
+   3.00000   3.00000   6.00000   4.00000   5.00000   2.00000   0.00000
+   4.00000   4.00000   5.00000   3.00000   4.00000   1.00000   3.00000   0.00000
+   2.00000   2.00000   3.00000   1.00000   2.00000   1.00000   3.00000   2.00000   0.00000
+   2.00000   2.00000   3.00000   1.00000   2.00000   3.00000   5.00000   4.00000   2.00000   0.00000
+   2.00000   2.00000   2.00000   1.00000   2.00000   3.00000   5.00000   4.00000   2.00000   2.00000   0.00000
+   3.00000   3.00000   3.00000   2.00000   3.00000   4.00000   6.00000   5.00000   3.00000   1.00000   1.00000   0.00000
+   2.00000   2.00000   3.00000   1.00000   2.00000   3.00000   5.00000   4.00000   2.00000   2.00000   2.00000   3.00000   0.00000
+   2.00000   2.00000   3.00000   1.00000   2.00000   3.00000   5.00000   4.00000   2.00000   2.00000   2.00000   3.00000   2.00000   0.00000
+   2.00000   2.00000   3.00000   1.00000   2.00000   3.00000   5.00000   4.00000   2.00000   2.00000   2.00000   3.00000   2.00000   2.00000   0.00000
+		}
+
+
+==================================================================
+
+Corresponding list of Haplotypes: Haplotype Data from cmyc-phased_intron2.fas DnaSP file
+
+
+Ext_Id  	Freq.
+Hap_1	3	ATGGGCAGCCAC
+Hap_2	7	ACGGGCAGCCGC
+Hap_3	2	ACGGGAAGTCAC
+Hap_4	45	ACGGGCAGCCAC
+Hap_5	1	ACGGGCAGCCAA
+Hap_6	6	ACGGGCTTCCAC
+Hap_7	4	ATGGGCTTCCGC
+Hap_8	1	GCGGGCTTCCAC
+Hap_9	5	ACGGGCTGCCAC
+Hap_10	1	ACGGACAGCCAC
+Hap_11	2	ACGGGGAGCCAC
+Hap_12	2	ACGGAGAGCCAC
+Hap_13	2	ACGAGCAGCCAC
+Hap_14	2	ACGGGCAGCTAC
+Hap_15	1	ACAGGCAGCCAC
+==================================================================
+
+ 
+
+=================================================================
+  AMOVA ANALYSIS
+=================================================================
+
+
+---------------------------
+Genetic structure to test :
+---------------------------
+
+No. of Groups = 1
+
+
+	[[Structure]]
+
+		StructureName = "New Edited Structure"
+		NbGroups = 1
+		IndividualLevel = 0
+		DistMatLabel = ""
+		Group={
+		"CE"
+		"SUL"
+		}
+
+---------------------------
+
+
+Distance method: Pairwise difference
+
+--------------------------
+AMOVA design and results :
+--------------------------
+
+Reference: Weir, B.S. and Cockerham, C.C. 1984.
+           Excoffier, L., Smouse, P., and Quattro, J. 1992.
+           Weir, B. S., 1996.
+----------------------------------------------------------------------
+ Source of                  Sum of      Variance         Percentage
+ variation      d.f.        squares     components       of variation
+----------------------------------------------------------------------
+ Among
+ populations      1          1.426        0.03267 Va             4.69
+
+ Within
+ populations     82         54.443        0.66394 Vb            95.31
+----------------------------------------------------------------------
+ Total           83         55.869        0.69661
+----------------------------------------------------------------------
+ Fixation Index      FST :      0.04690
+----------------------------------------------------------------------
+
+Significance tests (1023 permutations)
+------------------
+
+Va and FST : P(rand. value > obs. value)  =  0.05670
+             P(rand. value = obs. value)  =  0.00293
+                                  P-value =  0.05963+-0.00763
+
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (27/11/24 at 21:32:35))
+Total computing time for this run : 0h 0m 0s 15 ms
+////////////////////////////////////////////////////////////////////
+
+
+
+

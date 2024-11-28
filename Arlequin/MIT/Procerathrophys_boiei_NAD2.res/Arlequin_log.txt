@@ -1,0 +1,66 @@
+Core Routine Directory: Z:/home/nathan/Documents/programs/arlequin31/
+Random number generator initialized with lidum=-24963
+Reading project profile section...
+done !
+Opening next project...
+Z:/home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/Arlequin/MIT/Procerathrophys_boiei_NAD2.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (27/11/24 at 21:56:00)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Project file, Line #20 : Keyword "CompDistMatrix" is now obsolete. Please set this parameter directly throug the interface
+
+Reading Haplotype List ...
+	Reading haplotype list in external file "Procerathrophys_boiei_NAD2.hap"
+done ! (1 ms)
+	Reading Samples section ...
+	Reading north ... 
+	done ! (0 ms)
+
+	Reading sul ... 
+	done ! (0 ms)
+
+	done reading Samples section! (0 ms)
+	Reading genetic structure ...
+	done reading genetic structure! (0 ms)
+done ! (1 ms)
+
+------------------------------------------------------------------------
+  Checking all selected options...
+		Building vectors of alleles...
+		done in 0 ms
+  done!
+  check selected settings...
+  done!
+		Computing distance matrix ...
+	Transferring haplotypes to temporary population ...
+	done ! (0 ms)
+	Computing distances ...
+ data are ok after check 
+	End of computations for population "Haplotype Data from ND2_Proceratophrys_boiei_aligned.fas DnaSP file"
+	done ! (0 ms)
+	Transferring distances to global distance matrix ...
+	done ! (0 ms)
+   5 #[INFO # 5] from function "operator <<(ostream& os, DistMat& DM)" : missing haplotype label(s)
+		done ! (0 ms)
+
+		Computing F statistics ...
+		done ! (1 ms)
+
+Population 'north' : 
+	End of computations for population "north"
+done in 0 ms
+
+Population 'sul' : 
+	End of computations for population "sul"
+done in 0 ms
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (27/11/24 at 21:56:00))
+Total computing time for this run : 0h 0m 0s 18 ms
+////////////////////////////////////////////////////////////////////
+
+Successful run of Z:/home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/Arlequin/MIT/Procerathrophys_boiei_NAD2.arp

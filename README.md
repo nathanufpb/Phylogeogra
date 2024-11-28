@@ -85,4 +85,17 @@ O Programa estimou três populações evolutivamente separadas entre PE e CE e e
 
    Foi estimada a diversidade genética do Procerathrophys boiei utilizando o script (/home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/DnaSP/Script_Python_statistics/Estatistica_Sumaria_final.py)
 
+   ![1732646575278](image/README/1732646575278.png)
+
    O resultado está em /home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/DnaSP/Script_Python_statistics/Tabela_formatada_1.pdf
+
+## 8. Demografia Histórica e Difusão espaço temporal
+
+Mismatch distriutions (Análise da Distribuição das Diferenças ):
+
+Foi utilizado o DnaSP para realizar a análise de Distribuição das Diferenças.
+
+![1732721210226](image/README/1732721210226.png)
+
+
+Os genes mitocondriais do Procerathropys boiei mostram uma possível expansão populacional antiga com diversos eventos de redução e aumento nas diferênças par-a-par.

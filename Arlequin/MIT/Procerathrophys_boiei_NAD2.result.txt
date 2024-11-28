@@ -1,0 +1,230 @@
+
+
+ 
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (27/11/24 at 21:56:00)
+////////////////////////////////////////////////////////////////////
+
+ 
+
+Project information:
+--------------------
+	NbSamples      =  2
+	DataType       =  DNA
+	GenotypicData  =  0
+
+==============================
+Settings used for Calculations
+==============================
+
+ General settings:
+ -----------------
+        Deletion Weight                = 1
+        Transition Weight Weight       = 1
+        Tranversion Weight Weight      = 1
+        Epsilon Value                  = 1e-07
+        Significant digits for output  = 5
+        Use original haplotype definition
+        Alllowed level of missing data = 0.05
+
+ Active Tasks:
+ -------------
+
+    Analysis of Molecular Variance:
+    -------------------------------
+        No. of Permutations = 1000
+        Print out inter-haplotypic distance matrix
+
+       Distance matrix:
+            Compute distance matrix
+            Molecular distance : Pairwise difference
+            Gamma a value      = 0
+
+ 
+===============================================================================
+== GENETIC STRUCTURE ANALYSIS
+===============================================================================
+
+
+Number of usable loci for distance computation : 55
+Allowed level of missing data                  : 0.05
+
+List of usable loci :
+---------------------
+   1     2     3     4     5     6     7     8     9    10    11    12    13    14    15  
+  16    17    18    19    20    21    22    23    24    25    26    27    28    29    30  
+  31    32    33    34    35    36    37    38    39    40    41    42    43    44    45  
+  46    47    48    49    50    51    52    53    54    55  
+
+List of loci with too much missing data :
+-----------------------------------------
+
+NONE
+
+ 
+---------------------------------------------------------------------------
+Matrix of Euclidian square distances used in the genetic structure section:
+---------------------------------------------------------------------------
+
+Reference: Jukes, T. and Cantor, C. 1969.
+           Jin, L. and M. Nei (1990).
+           Kumar, S., Tamura, K., and M. Nei. 1993.
+           Tamura, K., 1992.
+           Kimura, M. 1980.
+           Tajima, F. and Nei, M. 1984.
+           Tamura, K., and M. Nei, 1993.
+
+Euclidean square distance matrix used for AMOVA computations: Haplotype Data from ND2_Proceratophrys_boiei_aligned.fas DnaSP file
+
+     Distance method: Pairwise difference
+
+	[[DistanceMatrix]]
+
+		MatrixName= ""
+		MatrixSize= 31
+		LabelPosition=LINE
+		MatrixData={
+ #[INFO # 5] : missing haplotype label(s)
+
+
+   0.00000
+   3.00000   0.00000
+   2.00000   1.00000   0.00000
+   2.00000   5.00000   4.00000   0.00000
+  20.00000  23.00000  22.00000  22.00000   0.00000
+   3.00000   6.00000   5.00000   5.00000  20.00000   0.00000
+   4.00000   7.00000   6.00000   6.00000  21.00000   1.00000   0.00000
+   3.00000   2.00000   1.00000   5.00000  23.00000   6.00000   7.00000   0.00000
+  21.00000  24.00000  23.00000  23.00000   1.00000  21.00000  22.00000  24.00000   0.00000
+   3.00000   6.00000   5.00000   5.00000  23.00000   6.00000   7.00000   6.00000  24.00000   0.00000
+   3.00000   6.00000   5.00000   3.00000  23.00000   6.00000   7.00000   6.00000  24.00000   6.00000   0.00000
+   5.00000   8.00000   7.00000   7.00000  20.00000   8.00000   9.00000   8.00000  21.00000   8.00000   8.00000   0.00000
+  18.00000  21.00000  20.00000  20.00000  15.00000  20.00000  21.00000  21.00000  16.00000  19.00000  21.00000  20.00000   0.00000
+   2.00000   5.00000   4.00000   2.00000  20.00000   5.00000   6.00000   5.00000  21.00000   5.00000   3.00000   7.00000  18.00000   0.00000
+   2.00000   5.00000   4.00000   2.00000  20.00000   3.00000   4.00000   5.00000  21.00000   5.00000   3.00000   7.00000  20.00000   2.00000   0.00000
+  20.00000  23.00000  22.00000  22.00000  15.00000  22.00000  23.00000  23.00000  16.00000  21.00000  23.00000  20.00000   2.00000  20.00000  22.00000   0.00000
+  19.00000  22.00000  21.00000  21.00000  16.00000  21.00000  22.00000  22.00000  17.00000  18.00000  22.00000  21.00000   3.00000  19.00000  21.00000   3.00000   0.00000
+   6.00000   3.00000   4.00000   8.00000  26.00000   9.00000  10.00000   5.00000  27.00000   9.00000   9.00000  11.00000  22.00000   8.00000   8.00000  24.00000  23.00000   0.00000
+   4.00000   7.00000   6.00000   6.00000  19.00000   7.00000   8.00000   7.00000  20.00000   7.00000   7.00000   1.00000  19.00000   6.00000   6.00000  19.00000  20.00000  10.00000   0.00000
+   9.00000  11.00000  10.00000  11.00000  23.00000  12.00000  13.00000  11.00000  24.00000  12.00000  12.00000  10.00000  25.00000  11.00000  11.00000  25.00000  26.00000  14.00000   9.00000   0.00000
+   4.00000   7.00000   6.00000   6.00000  24.00000   7.00000   8.00000   7.00000  25.00000   1.00000   7.00000   9.00000  20.00000   6.00000   6.00000  22.00000  19.00000  10.00000   8.00000  13.00000   0.00000
+  19.00000  22.00000  21.00000  21.00000  16.00000  21.00000  22.00000  22.00000  17.00000  20.00000  22.00000  21.00000   1.00000  19.00000  21.00000   1.00000   2.00000  23.00000  20.00000  26.00000  21.00000   0.00000
+   5.00000   8.00000   7.00000   7.00000  21.00000   8.00000   9.00000   8.00000  22.00000   8.00000   8.00000   6.00000  21.00000   7.00000   7.00000  21.00000  22.00000  11.00000   5.00000   4.00000   9.00000  22.00000   0.00000
+   6.00000   9.00000   8.00000   8.00000  21.00000   9.00000  10.00000   9.00000  22.00000   9.00000   9.00000   3.00000  21.00000   8.00000   8.00000  21.00000  22.00000  12.00000   2.00000  11.00000  10.00000  22.00000   7.00000   0.00000
+   1.00000   4.00000   3.00000   1.00000  21.00000   4.00000   5.00000   4.00000  22.00000   4.00000   2.00000   6.00000  19.00000   1.00000   1.00000  21.00000  20.00000   7.00000   5.00000  10.00000   5.00000  20.00000   6.00000   7.00000   0.00000
+  18.00000  21.00000  20.00000  20.00000  15.00000  20.00000  21.00000  21.00000  16.00000  19.00000  21.00000  20.00000   2.00000  18.00000  20.00000   2.00000   1.00000  22.00000  19.00000  25.00000  20.00000   1.00000  21.00000  21.00000  19.00000   0.00000
+   1.00000   4.00000   3.00000   3.00000  21.00000   4.00000   5.00000   4.00000  22.00000   4.00000   4.00000   6.00000  19.00000   3.00000   3.00000  21.00000  20.00000   7.00000   5.00000  10.00000   5.00000  20.00000   6.00000   7.00000   2.00000  19.00000   0.00000
+  22.00000  25.00000  24.00000  24.00000   2.00000  22.00000  23.00000  25.00000   1.00000  25.00000  25.00000  22.00000  17.00000  22.00000  22.00000  17.00000  18.00000  28.00000  21.00000  25.00000  26.00000  18.00000  23.00000  23.00000  23.00000  17.00000  23.00000   0.00000
+   3.00000   4.00000   5.00000   3.00000  23.00000   6.00000   7.00000   6.00000  24.00000   6.00000   4.00000   8.00000  21.00000   3.00000   3.00000  23.00000  22.00000   7.00000   7.00000  10.00000   7.00000  22.00000   6.00000   9.00000   2.00000  21.00000   4.00000  25.00000   0.00000
+   2.00000   5.00000   4.00000   2.00000  20.00000   5.00000   6.00000   5.00000  21.00000   5.00000   3.00000   7.00000  20.00000   2.00000   2.00000  22.00000  21.00000   8.00000   6.00000  11.00000   6.00000  21.00000   7.00000   8.00000   1.00000  20.00000   3.00000  22.00000   3.00000   0.00000
+   3.00000   2.00000   1.00000   5.00000  23.00000   6.00000   7.00000   2.00000  24.00000   6.00000   6.00000   8.00000  21.00000   5.00000   5.00000  23.00000  22.00000   5.00000   7.00000  11.00000   7.00000  22.00000   8.00000   9.00000   4.00000  21.00000   4.00000  25.00000   6.00000   5.00000   0.00000
+		}
+
+
+==================================================================
+
+Corresponding list of Haplotypes: Haplotype Data from ND2_Proceratophrys_boiei_aligned.fas DnaSP file
+
+
+Ext_Id  	Freq.
+Hap_1	21	ACCCAGTGTTGCGTCAATTAATGCCACATCCACACGCCATATTAATGCGTCTACG
+Hap_2	11	ACCCAGTGTCGCCTCAATTAATGCCATATCCACACGCCATATTAATGCGTCTACG
+Hap_3	4	ACCCAGTGTTGCCTCAATTAATGCCATATCCACACGCCATATTAATGCGTCTACG
+Hap_4	1	ACCCAGTGTTGCGTCAATCAATGCCACATCCACACGTCATATTAATGCGTCTACG
+Hap_5	1	GTCCTATATTGTGTTAATTAGCACAACATCCACACGCCGTACTAGCACCTTCATG
+Hap_6	2	ACCCAGTGTTGCGTCAATTAATACTACACCCACACGCCATATTAATGCGTCTACG
+Hap_7	7	ACCCAGCGTTGCGTCAATTAATACTACACCCACACGCCATATTAATGCGTCTACG
+Hap_8	1	ACCCAGTGTTGCCTCAATTAATGCCATATCCACACACCATATTAATGCGTCTACG
+Hap_9	14	GTCCTATATTGTGTTAATTAGCACAACATCCACACGCCGTACTAGCACCTTCGTG
+Hap_10	1	ACCCAGTGTTGCGTCAATTAATGTCACGTCCACACGCTATATTAATGCGTCTACG
+Hap_11	3	ACCCAGTGTTACGTCAATTAATGCCACATCCACACGTCACATTAATGCGTCTACG
+Hap_12	3	ACCTAGTGTTGCGTCAGTTAATGCCACATCCACACGCCATATTAACGCATCCACG
+Hap_13	2	ATCCTATATTGCGTTAACTGATGTAACATCCGCAAGCCGTACTGGCGCTTCTATG
+Hap_14	2	ACCCAGTATTGCGTCAATTAATGCCACATCCACACGTCATATTAATGCGTCTACG
+Hap_15	1	ACCCAGTGTTGCGTCAATTAATACCACATCCACACGTCATATTAATGCGTCTACG
+Hap_16	3	ATCCTATATTGCGTTAACTGATGTAGCATCCGCAAGCCGTACTGGCGCTTCCATG
+Hap_17	1	ATCCTATATTGCGTTAACTGATGTAGCGTCCACAAGCCGTACTGGCGCTTCTATG
+Hap_18	1	ACCCAGTGCCGCCTCAACTAATGCCATATCCACACGCCATGTTAATGCGTCTACG
+Hap_19	2	ACCCAGTGTTGCGTCAGTTAATGCCACATCCACACGCCATATTAACGCATCCACG
+Hap_20	2	ACTCAGTGTTGCATCGATTAATGCCACATCCATGCGCCATATTAACACGTCCACA
+Hap_21	2	ACCCAGTGTTGCGTCAATTAATGTCACGTCCACACGCTATATTAATGCGCCTACG
+Hap_22	2	ATCCTATATTGCGTTAACTGATGTAGCATCCGCAAGCCGTACTGGCGCTTCTATG
+Hap_23	4	ACTCAGTGTTGCGTCAATTAATGCCACATCCATACGCCATATTAACGCGTCCACA
+Hap_24	5	ACCCAGTGTTGCGTCAGTTAATGCCACATCTACACGCCATATCAACGCATCCACG
+Hap_25	2	ACCCAGTGTTGCGTCAATTAATGCCACATCCACACGTCATATTAATGCGTCTACG
+Hap_26	1	ATCCTATATTGCGTTAACTGATGTAGCATCCACAAGCCGTACTGGCGCTTCTATG
+Hap_27	1	ACCCAGTGTTGCGTCAATTAATGCCACATACACACGCCATATTAATGCGTCTACG
+Hap_28	1	GTCCTATATTGTGTTAATTAGCACAACATCCACACGCCGTACTAGCATCTTCGTG
+Hap_29	1	ACTCAGTGTCGCGTCAATTAATGCCACATCCACACGTCATATTAATGCGTCTACG
+Hap_30	1	ACCCAGTGTTGCGTCAATTAACGCCACATCCACACGTCATATTAATGCGTCTACG
+Hap_31	1	ACCCAGTGTTGCCCCAATTAATGCCATATCCACACGCCATATTAATGCGTCTACG
+==================================================================
+
+ 
+
+=================================================================
+  AMOVA ANALYSIS
+=================================================================
+
+
+---------------------------
+Genetic structure to test :
+---------------------------
+
+No. of Groups = 1
+
+
+	[[Structure]]
+
+		StructureName = "New Edited Structure"
+		NbGroups = 1
+		IndividualLevel = 0
+		DistMatLabel = ""
+		Group={
+		"north"
+		"sul"
+		}
+
+---------------------------
+
+
+Distance method: Pairwise difference
+
+--------------------------
+AMOVA design and results :
+--------------------------
+
+Reference: Weir, B.S. and Cockerham, C.C. 1984.
+           Excoffier, L., Smouse, P., and Quattro, J. 1992.
+           Weir, B. S., 1996.
+----------------------------------------------------------------------
+ Source of                  Sum of      Variance         Percentage
+ variation      d.f.        squares     components       of variation
+----------------------------------------------------------------------
+ Among
+ populations      1        172.182        3.35909 Va            45.84
+
+ Within
+ populations    102        404.876        3.96937 Vb            54.16
+----------------------------------------------------------------------
+ Total          103        577.058        7.32846
+----------------------------------------------------------------------
+ Fixation Index      FST :      0.45836
+----------------------------------------------------------------------
+
+Significance tests (1023 permutations)
+------------------
+
+Va and FST : P(rand. value > obs. value)  =  0.00000
+             P(rand. value = obs. value)  =  0.00000
+                                  P-value =  0.00000+-0.00000
+
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (27/11/24 at 21:56:00))
+Total computing time for this run : 0h 0m 0s 18 ms
+////////////////////////////////////////////////////////////////////
+
+
+
+
