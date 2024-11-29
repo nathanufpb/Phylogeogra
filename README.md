@@ -125,6 +125,6 @@ Os genes mitocondriais do ***Procerathropys boiei*** mostram uma possível expan
 
 #### Skylineplot
 
-utilizamos os softwares ***BEASTX*** e o ***TRACER*** para verificar se existe concordância das análises de expansão populaiconal através da análise de Skylinegrid.
+utilizamos os softwares ***BEASTX*** e o ***TRACER*** para verificar se existe concordância das análises de expansão populacional através da análise de Skylinegrid do gene mitocondrial CYTB utilizando o modelo de evolução do relógio molecular como Strict.
 
 ![skyline_plot](images/SKYLINE_PLOT.jpg)
