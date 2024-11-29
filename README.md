@@ -1,13 +1,13 @@
 # Filogeografia
 
-Objetivo:
+## Objetivo:
 Este relatório, elaborado para a disciplina de Filogeografia, tem como objetivo descrever as etapas envolvidas na aplicação prática de ferramentas de bioinformática em análises filogeográficas. Dados de sequenciamento genético multilocus obtidos através do trabalho (CARNAVAL; BATES, 2007), foram utilizados para realizar as seguintes análises: construção de árvores filogenéticas, delimitação de linhagens, avaliação da diversidade genética, análise da estrutura populacional e reconstrução da história demográfica da nossa espécie modelo.
 
-1. Download e limpeza dos dados.
+## 1. Download e limpeza dos dados.
 
 Um script personalizado em python("Search_ncbi_and_clear_data.ipynb") foi utilizado para baixar as sequências de DNA no formato *.fasta através de um intervalo de código de acesso do GenBank (“https://www.ncbi.nlm.nih.gov/), e limpar os cabeçalhos de modo que a identificação de cada voucher fosse preservado e as sequências estivessem prontas para realizar o alinhamento separadamente para cada sequência, o Script está disponível no Github (https://github.com/nathanufpb/Phylogeogra.git). Os dados incluem os genes mitocondriais NADH dehydrogenase 2 (ND2) e o Citocromo b (Cytb), além do gene nuclear proto-oncogene MYC, fator de transcrição bHLH (c-myc).
 
-2. Alinhamento e Faseamento.
+## 2. Alinhamento e Faseamento.
 
 Realizamos o alinhamento de cada sequência separadamente utilizando o algoritmo Muscle (EDGAR, 2004) através do software MEGA 11 (TAMURA; STECHER; KUMAR, 2021) Figura 1. Utilizamos o algoritmo PHASE (STEPHENS; DONNELLY, 2003; STEPHENS; SMITH; DONNELLY, 2001) para separar as fases haplotípicas do gene nuclear c-myc  utilizando a 5ª versão do software DnaSP (LIBRADO; ROZAS, 2009), obtendo o conjunto de diferentes alelos herdados juntos em um mesmo cromossomo (Figura 2). Um corte nas phases com similaridades abaixo de 60% foi realizado na sequência de alinhamento do gene c-myc utilizando o script python remove_low_phases.ipynb escrito no formato Júpiter Notebook contido no diretório do github, restaram 80 sequências (fases diferentes) no total.
 Em contrapartida, os genes mitocondriais ND2 e Cytb não foram submetidos a esse processo, uma vez que sua herança exclusivamente materna torna o faseamento desnecessário.
@@ -18,7 +18,7 @@ Em contrapartida, os genes mitocondriais ND2 e Cytb não foram submetidos a esse
 
 ![Geneland Analysis Plot](https://github.com/nathanufpb/Phylogeogra/blob/main/images/Phase_nuc.png)
 
-3. Seleção de Modelos
+## 3. Seleção de Modelos
 
 Utilizamos o Jmodeltest (DARRIBA et al., 2012; POSADA, 2008) para testar quais modelos de substituição nucleotídica se adequam melhor aos nossos dados de sequências alinhadas (Figura 4). Os resultados são mostrados na Tabela 1.
 
@@ -26,7 +26,7 @@ Utilizamos o Jmodeltest (DARRIBA et al., 2012; POSADA, 2008) para testar quais m
 
 ![Geneland Analysis Plot](https://github.com/nathanufpb/Phylogeogra/blob/main/images/Jmodeltest_analysis.jpg)
 
-4. Árvores de Genes
+## 4. Árvores de Genes
 
 Utilizamos uma abordagem bayesiana para calcular árvores filogenéticas através do software  BEAST2 (BOUCKAERT et al., 2014). Primeiramente as sequências foram carregadas através do BEAUTI2 onde foram especificados cada modelo para cada sequência (Figura 5). Em seguida a análise seguiu utilizando o BEAST2 (Figura 6).
 
@@ -44,7 +44,7 @@ Em seguida, o software Treeannotator (BOUCKAERT et al., 2014) juntamente com o B
 
 ![Geneland Analysis Plot](https://github.com/nathanufpb/Phylogeogra/blob/main/images/Trees_results_beast.jpg)
 
-5. Inferência da Estrutura Populacional
+## 5. Inferência da Estrutura Populacional
 
 GeneLand
 
@@ -81,13 +81,25 @@ Com esses arquivos foi possível executar o Geneland através dp Rscript "Genela
 
 O Programa estimou três populações evolutivamente separadas entre PE e CE e entre PB e PE mas as probabilidades permaneceram baixas
 
-7. Estimativas genéticas, Análise de variância molecular (AMOVA) e Redes de haplótipos
+## 7. Estimativas genéticas, Análise de variância molecular (AMOVA) e Redes de haplótipos
+
 
    Foi estimada a diversidade genética do Procerathrophys boiei utilizando o script (/home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/DnaSP/Script_Python_statistics/Estatistica_Sumaria_final.py)
 
    ![1732646575278](image/README/1732646575278.png)
 
-   O resultado está em /home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/DnaSP/Script_Python_statistics/Tabela_formatada_1.pdf
+   O resultado está em: /home/nathan/Documents/Doutorado_diversidade_genética/Phylogeogra/DnaSP/Script_Python_statistics/Tabela_formatada_1.pdf
+
+
+Rede de Haplótipos:
+   O script fas2phylip.ipynb foi utilizado para converter as sequências de alinhamento do formato .fas para phylip .phy. Um arquivo de Traits utilizado para inserção no Popart foi criado através do script Create_traits_file.ipynb onde foram testadas a hipótese nula de que as populações de águas azul, Tapacurá e Maranguape (norte) não compartilham haplótipos com as populações de Brejo Madre de Deus, Brejo dos Cavalos e Frei Caneca (sul). O software PopArt versão(x) foi utilizado para criar o mapa de haplótipos utilizando o algoritmo Median Joining Network. As sequências de alinhamento no formato .phy e o arquivo de Traits para criar a rede de haplótipos para os três pedaços do gene Cmyc (2 exons e 1 Intron) e para os dois genes mitocondriais (NAD2 e CYTB).
+
+   ![plot_haplotipo_MITO](images/MITOS_haplotip_haplotype_network.jpg).
+
+   ![plot_haplotipo_NUC](images/Cmyc_haplotip_haplotype_network.jpg).
+
+
+
 
 ## 8. Demografia Histórica e Difusão espaço temporal
 
