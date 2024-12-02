@@ -128,3 +128,16 @@ Os genes mitocondriais do ***Procerathropys boiei*** mostram uma possível expan
 utilizamos os softwares ***BEASTX*** e o ***TRACER*** para verificar se existe concordância das análises de expansão populacional através da análise de Skylinegrid do gene mitocondrial CYTB utilizando o modelo de evolução do relógio molecular como Strict.
 
 ![skyline_plot](images/SKYLINE_PLOT.jpg)
+
+
+### Reconstrução espaço-temporal
+
+Utilizamos o ***BEAUTI***, ***BEAST***, ***TREEANNOTATOR*** e o ***SPREAD*** (Versão 1.0.7rc, 2013) para realizar a reconstrução temporal do gene ***Cytb***. Para isso foi necessário um arquivo dos pontos com as coordenadas e um arquivo contendo as sequências alinhadas. o ***BEAUTI*** e o ***BEAST*** foi utilizado para aplicar o método bayesiano para estimar a história filogenética, o ***TREEANNOTATOR*** foi utilizado para estimar a árvore de máxima credibilidade criada pela análise bayesiana que em seguida foi carregada no ***SPREAD*** para gerar o arquivo ***.KML*** para visualização no ***Google Earth Pro*** (versão 7.3.6.9345).
+ 
+
+#
+
+![Reconstrução_espaço-temporal](images/Reconstrução_espaço-temporal_cytb.png)
+
+![Animated Phylogeography](https://github.com/nathanufpb/Phylogeogra/blob/main/images/phylogeography_animation.gif)
+
