@@ -139,5 +139,12 @@ Utilizamos o ***BEAUTI***, ***BEAST***, ***TREEANNOTATOR*** e o ***SPREAD*** (Ve
 
 ![Reconstrução_espaço-temporal](images/Reconstrução_espaço-temporal_cytb.png)
 
-![Animated Phylogeography](https://github.com/nathanufpb/Phylogeogra/blob/main/images/phylogeography_animation.gif)
+### Animação da Filogeografia
+
+A animação a seguir mostra a difusão espaço-temporal do gene ***Cytb*** ao longo do tempo, visualizada no Google Earth Pro.
+
+![Animação_da_Filogeografia](images/images/Peek 2024-12-02 23-12.gif)
+
+![Animated_Phylogeography](images/Peek 2024-12-02 23-12.gif)
+
 
